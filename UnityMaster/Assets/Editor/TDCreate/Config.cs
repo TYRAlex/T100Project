@@ -71,31 +71,41 @@ using UnityEngine;
         public const string HotFixPackageRootPath = "Assets/HotFixPackage/";
         public const string HotFixCodePackageRootPath = "Assets/../HotfixCodeProject/";
 
-        public const string CommonSpineRootPath = "Assets/ILFramework/CommonRes/Spine/";
-        public const string BDMiddleSpinePath = CommonSpineRootPath + "buding_TDCommon/buding_SkeletonData.asset";
-        public const string BDLeftSpinePath = CommonSpineRootPath + "buding_TD/buding_4-3_SkeletonData.asset";
-        public const string SpSpinePath = CommonSpineRootPath + "ChengGong/sp_SkeletonData.asset";
-        public const string LRSpinePath = CommonSpineRootPath + "LRBtn/LR_SkeletonData.asset";
-        public const string BtnsSpinePath = CommonSpineRootPath + "OkAndRetry/PLAY_SkeletonData.asset";
-        public const string SuccessChildSpinePath = CommonSpineRootPath + "ChengGong/3-5_SkeletonData.asset";
-        public const string SuccessAdultSpinePath = CommonSpineRootPath + "ChengGong/6-12_SkeletonData.asset";
-        public const string XemMiddleSpinePath = CommonSpineRootPath + "xiaoemo/xem_SkeletonData.asset";
-        public const string DingDingChildSpinePath = CommonSpineRootPath + "dingding_Child/nan_SkeletonData.asset";
-        public const string DingDingAdultSpinePath = CommonSpineRootPath + "dingding_Adult/dingding_SkeletonData.asset";
-        public const string TianTianChildSpinePath = CommonSpineRootPath + "tiantian_Child/nv_SkeletonData.asset";
-        public const string TianTianAdultSpinePath = CommonSpineRootPath + "tiantian_Adult/tiantian_SkeletonData.asset";
+        public const string CommonSpineRootPath = "Assets/HotFixPackage/TDAssets/Spines/";                               //田丁spine根目录
+        public const string CommonTextureRootPath = "Assets/HotFixPackage/TDAssets/Textures/";                           //田丁texture根目录
+        //角色
+        public const string BDMiddleSpinePath  = CommonSpineRootPath + "role/role_buding/buding_M/buding-M_SkeletonData.asset";     //中大布丁
+        public const string BDLeftSpinePath    = CommonSpineRootPath + "role/role_buding/buding_L/buding-L_SkeletonData.asset";     //左小布丁
+        public const string XemMiddleSpinePath = CommonSpineRootPath + "role/role_xiaoemo/xem_SkeletonData.asset";                  //小恶魔
 
-        public const string BdDialoguesSpinePath = CommonSpineRootPath + "Dialogues/bd/bd_SkeletonData.asset";
-        public const string XemDialoguesSpinePath = CommonSpineRootPath + "Dialogues/devil/xem_SkeletonData.asset";
-        public const string DingDingChildDialoguesSpinePath = CommonSpineRootPath + "Dialogues/dingding_Child/xd_SkeletonData.asset";
-        public const string DingDingAdultDialoguesSpinePath = CommonSpineRootPath + "Dialogues/dingding_Adult/dd_SkeletonData.asset";
-        public const string TianTianChildDialoguesSpinePath = CommonSpineRootPath + "Dialogues/tiantian_Child/xt_SkeletonData.asset";
-        public const string TianTianAdultDialoguesSpinePath = CommonSpineRootPath + "Dialogues/tiantian_Adult/dt_SkeletonData.asset";
+        public const string DingDingChildSpinePath = CommonSpineRootPath + "role/role_dingding/Child/dingding_SkeletonData.asset";  //丁丁小年龄
+        public const string DingDingAdultSpinePath = CommonSpineRootPath + "role/role_dingding/Adult/dingding_SkeletonData.asset"; //丁丁大年龄
+        public const string TianTianChildSpinePath = CommonSpineRootPath + "role/role_tiantian/Child/tiantian_SkeletonData.asset"; //田田小年龄
+        public const string TianTianAdultSpinePath = CommonSpineRootPath + "role/role_tiantian/Adult/tiantian_SkeletonData.asset"; //田田大年龄
+
+        //结果反馈
+        public const string SpSpinePath = CommonSpineRootPath           + "result/succeed/sp_SkeletonData.asset";              //彩带
+        public const string SuccessChildSpinePath = CommonSpineRootPath + "result/succeed/Successfully_SkeletonData.asset";    //成功小年龄
+        public const string SuccessAdultSpinePath = CommonSpineRootPath + "result/succeed/Successfully_SkeletonData.asset";    //成功大年龄  
+        public const string FailChildSpinePath = CommonSpineRootPath    + "result/fail/Child/Fail-Child_SkeletonData.asset";   //失败小年龄
+        public const string FailAdultSpinePath = CommonSpineRootPath    + "result/fail/Adult/Fail-Adult_SkeletonData.asset";   //失败大年龄
+
+        //按钮
+        public const string BtnsSpinePath = CommonSpineRootPath + "btn/btn_start-ok-retry/btns_SkeletonData.asset";    //开始、重玩、Ok
+        public const string LRSpinePath   = CommonSpineRootPath + "btn/btn_lr/LR_SkeletonData.asset";                 //左右箭头
+                   
+        //对话框
+        public const string BdDialoguesSpinePath = CommonSpineRootPath            + "dialogues/dialogues_buding/bd_SkeletonData.asset";          //布丁对话框
+        public const string XemDialoguesSpinePath = CommonSpineRootPath           + "dialogues/dialogues_xiaoemo/xem_SkeletonData.asset";     //小恶魔对话框
+        public const string DingDingChildDialoguesSpinePath = CommonSpineRootPath + "dialogues/dialogues_dingding/Child/xd_SkeletonData.asset";  //对话框丁丁小年龄
+        public const string DingDingAdultDialoguesSpinePath = CommonSpineRootPath + "dialogues/dialogues_dingding/Adult/dd_SkeletonData.asset";  //对话框丁丁大年龄
+        public const string TianTianChildDialoguesSpinePath = CommonSpineRootPath + "dialogues/dialogues_tiantian/Child/xt_SkeletonData.asset";  //对话框田田小年龄
+        public const string TianTianAdultDialoguesSpinePath = CommonSpineRootPath + "dialogues/dialogues_tiantian/Adult/dt_SkeletonData.asset"; //对话框田田大年龄
 
         public const string DialoguesFontPath = "Assets/ILFramework/CommonRes/Font/站酷快乐体2016.ttf";
 
-        public const string LastBtnPath = "Assets/ILFramework/CommonRes/Textures/SwitchBtn/Last1.png";
-        public const string NextBtnPath = "Assets/ILFramework/CommonRes/Textures/SwitchBtn/Next1.png";
+        public const string LastBtnPath = CommonTextureRootPath+"SwitchBtn/Last1.png";    //上一环节png路径
+        public const string NextBtnPath = CommonTextureRootPath+"SwitchBtn/Next1.png";    //下一环节png路径
 
         public const string TemplateKnowPartOnePageOneSmallPartCsPath = HotFixCodePackageRootPath + "Template/KnowPartOnePageOneSmallPartTemplate.txt";
         public const string TemplateKnowPartMorePageOneSmallPartCsPath = HotFixCodePackageRootPath + "Template/KnowPartMorePageOneSmallPartTemplate.txt";
@@ -119,10 +129,10 @@ using UnityEngine;
 
         #region 丁丁相关 
 
-        public static readonly Vector2 DingDingChildLeftPos = new Vector2(248, -108);
-        public static readonly Vector2 DingDingChildLeftScale = new Vector2(0.5f, 0.5f);
-        public static readonly Vector2 DingDingChildMiddlePos = new Vector2(980, -130);
-        public static readonly Vector2 DingDingChildMiddleScale = new Vector2(0.65f, 0.65f);
+        public static readonly Vector2 DingDingChildLeftPos = new Vector2(300, -70);
+        public static readonly Vector2 DingDingChildLeftScale = new Vector2(1.2f, 1.2f);
+        public static readonly Vector2 DingDingChildMiddlePos = new Vector2(0, -100);
+        public static readonly Vector2 DingDingChildMiddleScale = new Vector2(1.6f, 1.6f);
         public static readonly Vector2 DingDingAdultLeftPos = new Vector2(270, -206);
         public static readonly Vector2 DingDingAdultLeftScale = new Vector2(1.2f, 1.2f);
         public static readonly Vector2 DingDingAdultMiddlePos = new Vector2(980, -239);
@@ -132,10 +142,11 @@ using UnityEngine;
         #region 田田相关
 
 
-        public static readonly Vector2 TianTianChildLeftPos = new Vector2(255, -84);
-        public static readonly Vector2 TianTianChildLeftScale = new Vector2(0.45f, 0.45f);
-        public static readonly Vector2 TianTianChildMiddlePos = new Vector2(973, -101);
-        public static readonly Vector2 TianTianChildMiddleScale = new Vector2(0.6f, 0.6f);
+        public static readonly Vector2 TianTianChildLeftPos = new Vector2(300, -50);
+        public static readonly Vector2 TianTianChildLeftScale = new Vector2(1.2f, 1.2f);
+        public static readonly Vector2 TianTianChildMiddlePos = new Vector2(0, -70);
+        public static readonly Vector2 TianTianChildMiddleScale = new Vector2(1.6f, 1.6f);
+
         public static readonly Vector2 TianTianAdultLeftPos = new Vector2(292, -204);
         public static readonly Vector2 TianTianAdultLeftScale = new Vector2(1.25f, 1.25f);
         public static readonly Vector2 TianTianAdultMiddlePos = new Vector2(973, -228);

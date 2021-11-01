@@ -1,0 +1,216 @@
+
+buding-M.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bd-sh0001
+  rotate: true
+  xy: 275, 573
+  size: 185, 98
+  orig: 185, 98
+  offset: 0, 0
+  index: -1
+bd-sh0002
+  rotate: true
+  xy: 375, 933
+  size: 185, 98
+  orig: 185, 98
+  offset: 0, 0
+  index: -1
+bd-sh0003
+  rotate: true
+  xy: 375, 746
+  size: 185, 98
+  orig: 185, 98
+  offset: 0, 0
+  index: -1
+bd-sh0004
+  rotate: true
+  xy: 375, 559
+  size: 185, 98
+  orig: 185, 98
+  offset: 0, 0
+  index: -1
+bd-sh0005
+  rotate: false
+  xy: 1650, 1750
+  size: 185, 98
+  orig: 185, 98
+  offset: 0, 0
+  index: -1
+bd-zy0001
+  rotate: false
+  xy: 637, 1867
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd-zy0002
+  rotate: false
+  xy: 2, 940
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd-zy0003
+  rotate: false
+  xy: 637, 1687
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd-zy0004
+  rotate: false
+  xy: 1010, 1867
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd-zy0005
+  rotate: false
+  xy: 2, 760
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd-zy0006
+  rotate: false
+  xy: 637, 1507
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd-zy0007
+  rotate: false
+  xy: 1010, 1687
+  size: 371, 178
+  orig: 371, 178
+  offset: 0, 0
+  index: -1
+bd10
+  rotate: false
+  xy: 1650, 1850
+  size: 271, 195
+  orig: 271, 195
+  offset: 0, 0
+  index: -1
+bd11
+  rotate: false
+  xy: 1383, 1777
+  size: 265, 268
+  orig: 265, 268
+  offset: 0, 0
+  index: -1
+bd12
+  rotate: false
+  xy: 2, 1120
+  size: 459, 379
+  orig: 459, 379
+  offset: 0, 0
+  index: -1
+bd13
+  rotate: false
+  xy: 2, 277
+  size: 146, 284
+  orig: 146, 284
+  offset: 0, 0
+  index: -1
+bd14
+  rotate: true
+  xy: 1923, 1866
+  size: 179, 122
+  orig: 179, 122
+  offset: 0, 0
+  index: -1
+bd15
+  rotate: false
+  xy: 1837, 1790
+  size: 51, 58
+  orig: 51, 58
+  offset: 0, 0
+  index: -1
+bd16
+  rotate: false
+  xy: 463, 1126
+  size: 55, 73
+  orig: 55, 73
+  offset: 0, 0
+  index: -1
+bd17
+  rotate: true
+  xy: 463, 1201
+  size: 298, 157
+  orig: 298, 157
+  offset: 0, 0
+  index: -1
+bd18
+  rotate: false
+  xy: 150, 277
+  size: 146, 284
+  orig: 146, 284
+  offset: 0, 0
+  index: -1
+bd19
+  rotate: false
+  xy: 1010, 1528
+  size: 298, 157
+  orig: 298, 157
+  offset: 0, 0
+  index: -1
+bd20
+  rotate: false
+  xy: 2, 79
+  size: 197, 196
+  orig: 197, 196
+  offset: 0, 0
+  index: -1
+bd21
+  rotate: false
+  xy: 1383, 1579
+  size: 197, 196
+  orig: 197, 196
+  offset: 0, 0
+  index: -1
+bd3
+  rotate: false
+  xy: 2, 20
+  size: 124, 57
+  orig: 124, 57
+  offset: 0, 0
+  index: -1
+bd4
+  rotate: false
+  xy: 1582, 1755
+  size: 55, 20
+  orig: 55, 20
+  offset: 0, 0
+  index: -1
+bd5
+  rotate: true
+  xy: 1310, 1561
+  size: 124, 57
+  orig: 124, 57
+  offset: 0, 0
+  index: -1
+bd6
+  rotate: false
+  xy: 201, 74
+  size: 183, 201
+  orig: 183, 201
+  offset: 0, 0
+  index: -1
+bd8
+  rotate: false
+  xy: 2, 1501
+  size: 633, 544
+  orig: 633, 544
+  offset: 0, 0
+  index: -1
+bd9
+  rotate: false
+  xy: 2, 563
+  size: 271, 195
+  orig: 271, 195
+  offset: 0, 0
+  index: -1

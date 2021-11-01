@@ -1,0 +1,34 @@
+
+btns.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 241
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 2
+  size: 230, 237
+  orig: 230, 237
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 245, 245
+  size: 230, 237
+  orig: 230, 237
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 234, 2
+  size: 230, 237
+  orig: 230, 237
+  offset: 0, 0
+  index: -1

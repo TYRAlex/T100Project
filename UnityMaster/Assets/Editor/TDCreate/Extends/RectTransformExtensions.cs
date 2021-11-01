@@ -101,6 +101,8 @@ namespace TDCreate
                     rect.anchorMax = new Vector2(0.5f, 0f);
                     rect.offsetMin = new Vector2(-width / 2, 0f);
                     rect.offsetMax = new Vector2(width / 2, height);
+                    Debug.LogError("offsetMin" + rect.offsetMin);
+                    Debug.LogError("offsetMax" + rect.offsetMax);
                     break;
                 case AnchorPresetsType.CenterStretch:
                     rect.anchorMin = new Vector2(0.5f, 0f);
@@ -179,6 +181,7 @@ namespace TDCreate
                     break;
                 case PivotPresetsType.CenterBottom:
                     rect.pivot = new Vector2(0.5f, 0);
+                    Debug.LogError("pivot:"+ rect.pivot);
                     break;
                 case PivotPresetsType.RightTop:
                     rect.pivot = Vector2.one;

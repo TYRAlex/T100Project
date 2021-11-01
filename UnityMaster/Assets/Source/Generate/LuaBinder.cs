@@ -253,11 +253,9 @@ public static class LuaBinder
 		L.EndPreLoad();
 		Debugger.Log("Register lua type cost time: {0}", Time.realtimeSinceStartup - t);
 	}
-	
-	
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_TweenCallback(IntPtr L)
+	static int DG_Tweening_TweenCallback(IntPtr L)
 	{
 		try
 		{
@@ -284,7 +282,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_float(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_float(IntPtr L)
 	{
 		try
 		{
@@ -311,7 +309,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_float(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_float(IntPtr L)
 	{
 		try
 		{
@@ -338,7 +336,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_double(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_double(IntPtr L)
 	{
 		try
 		{
@@ -365,7 +363,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_double(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_double(IntPtr L)
 	{
 		try
 		{
@@ -392,7 +390,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_int(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_int(IntPtr L)
 	{
 		try
 		{
@@ -419,7 +417,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_int(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_int(IntPtr L)
 	{
 		try
 		{
@@ -446,7 +444,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_uint(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_uint(IntPtr L)
 	{
 		try
 		{
@@ -473,7 +471,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_uint(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_uint(IntPtr L)
 	{
 		try
 		{
@@ -500,7 +498,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_long(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_long(IntPtr L)
 	{
 		try
 		{
@@ -527,7 +525,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_long(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_long(IntPtr L)
 	{
 		try
 		{
@@ -554,7 +552,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_ulong(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_ulong(IntPtr L)
 	{
 		try
 		{
@@ -581,7 +579,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_ulong(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_ulong(IntPtr L)
 	{
 		try
 		{
@@ -608,7 +606,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_string(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_string(IntPtr L)
 	{
 		try
 		{
@@ -635,7 +633,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_string(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_string(IntPtr L)
 	{
 		try
 		{
@@ -662,7 +660,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_Vector2(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_Vector2(IntPtr L)
 	{
 		try
 		{
@@ -689,7 +687,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_Vector2(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_Vector2(IntPtr L)
 	{
 		try
 		{
@@ -716,7 +714,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_Vector3(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_Vector3(IntPtr L)
 	{
 		try
 		{
@@ -743,7 +741,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_Vector3(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_Vector3(IntPtr L)
 	{
 		try
 		{
@@ -770,7 +768,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_Vector4(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_Vector4(IntPtr L)
 	{
 		try
 		{
@@ -797,7 +795,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_Vector4(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_Vector4(IntPtr L)
 	{
 		try
 		{
@@ -824,7 +822,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_Quaternion(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_Quaternion(IntPtr L)
 	{
 		try
 		{
@@ -851,7 +849,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_Quaternion(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_Quaternion(IntPtr L)
 	{
 		try
 		{
@@ -878,7 +876,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_Color(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_Color(IntPtr L)
 	{
 		try
 		{
@@ -905,7 +903,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_Color(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_Color(IntPtr L)
 	{
 		try
 		{
@@ -932,7 +930,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_Rect(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_Rect(IntPtr L)
 	{
 		try
 		{
@@ -959,7 +957,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_Rect(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_Rect(IntPtr L)
 	{
 		try
 		{
@@ -986,7 +984,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOGetter_UnityEngine_RectOffset(IntPtr L)
+	static int DG_Tweening_Core_DOGetter_UnityEngine_RectOffset(IntPtr L)
 	{
 		try
 		{
@@ -1013,7 +1011,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int DG_Tweening_Core_DOSetter_UnityEngine_RectOffset(IntPtr L)
+	static int DG_Tweening_Core_DOSetter_UnityEngine_RectOffset(IntPtr L)
 	{
 		try
 		{
@@ -1040,7 +1038,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_UI_InputField_OnValidateInput(IntPtr L)
+	static int UnityEngine_UI_InputField_OnValidateInput(IntPtr L)
 	{
 		try
 		{
@@ -1067,7 +1065,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Video_VideoPlayer_EventHandler(IntPtr L)
+	static int UnityEngine_Video_VideoPlayer_EventHandler(IntPtr L)
 	{
 		try
 		{
@@ -1094,7 +1092,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Video_VideoPlayer_ErrorEventHandler(IntPtr L)
+	static int UnityEngine_Video_VideoPlayer_ErrorEventHandler(IntPtr L)
 	{
 		try
 		{
@@ -1121,7 +1119,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Video_VideoPlayer_TimeEventHandler(IntPtr L)
+	static int UnityEngine_Video_VideoPlayer_TimeEventHandler(IntPtr L)
 	{
 		try
 		{
@@ -1148,7 +1146,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Video_VideoPlayer_FrameReadyEventHandler(IntPtr L)
+	static int UnityEngine_Video_VideoPlayer_FrameReadyEventHandler(IntPtr L)
 	{
 		try
 		{
@@ -1175,7 +1173,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Events_UnityAction(IntPtr L)
+	static int UnityEngine_Events_UnityAction(IntPtr L)
 	{
 		try
 		{
@@ -1202,7 +1200,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Events_UnityAction_Ximmerse_InputSystem_ControllerButton(IntPtr L)
+	static int UnityEngine_Events_UnityAction_Ximmerse_InputSystem_ControllerButton(IntPtr L)
 	{
 		try
 		{
@@ -1229,7 +1227,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Events_UnityAction_UnityEngine_Vector3(IntPtr L)
+	static int UnityEngine_Events_UnityAction_UnityEngine_Vector3(IntPtr L)
 	{
 		try
 		{
@@ -1256,7 +1254,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Events_UnityAction_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3(IntPtr L)
+	static int UnityEngine_Events_UnityAction_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3(IntPtr L)
 	{
 		try
 		{
@@ -1283,7 +1281,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Camera_CameraCallback(IntPtr L)
+	static int UnityEngine_Camera_CameraCallback(IntPtr L)
 	{
 		try
 		{
@@ -1310,7 +1308,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_RectTransform_ReapplyDrivenProperties(IntPtr L)
+	static int UnityEngine_RectTransform_ReapplyDrivenProperties(IntPtr L)
 	{
 		try
 		{
@@ -1337,7 +1335,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Application_AdvertisingIdentifierCallback(IntPtr L)
+	static int UnityEngine_Application_AdvertisingIdentifierCallback(IntPtr L)
 	{
 		try
 		{
@@ -1364,7 +1362,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Application_LowMemoryCallback(IntPtr L)
+	static int UnityEngine_Application_LowMemoryCallback(IntPtr L)
 	{
 		try
 		{
@@ -1391,7 +1389,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Application_LogCallback(IntPtr L)
+	static int UnityEngine_Application_LogCallback(IntPtr L)
 	{
 		try
 		{
@@ -1418,7 +1416,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_AudioClip_PCMReaderCallback(IntPtr L)
+	static int UnityEngine_AudioClip_PCMReaderCallback(IntPtr L)
 	{
 		try
 		{
@@ -1445,7 +1443,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_AudioClip_PCMSetPositionCallback(IntPtr L)
+	static int UnityEngine_AudioClip_PCMSetPositionCallback(IntPtr L)
 	{
 		try
 		{
@@ -1472,7 +1470,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int UnityEngine_Canvas_WillRenderCanvases(IntPtr L)
+	static int UnityEngine_Canvas_WillRenderCanvases(IntPtr L)
 	{
 		try
 		{
@@ -1499,7 +1497,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int ILFramework_FunctionOf3Dof_The3DofCallBack(IntPtr L)
+	static int ILFramework_FunctionOf3Dof_The3DofCallBack(IntPtr L)
 	{
 		try
 		{
@@ -1526,7 +1524,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Action(IntPtr L)
+	static int System_Action(IntPtr L)
 	{
 		try
 		{
@@ -1553,7 +1551,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Predicate_int(IntPtr L)
+	static int System_Predicate_int(IntPtr L)
 	{
 		try
 		{
@@ -1580,7 +1578,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Action_int(IntPtr L)
+	static int System_Action_int(IntPtr L)
 	{
 		try
 		{
@@ -1607,7 +1605,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Comparison_int(IntPtr L)
+	static int System_Comparison_int(IntPtr L)
 	{
 		try
 		{
@@ -1634,7 +1632,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Func_int_int(IntPtr L)
+	static int System_Func_int_int(IntPtr L)
 	{
 		try
 		{
@@ -1661,7 +1659,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Action_bool(IntPtr L)
+	static int System_Action_bool(IntPtr L)
 	{
 		try
 		{
@@ -1688,7 +1686,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Func_bool(IntPtr L)
+	static int System_Func_bool(IntPtr L)
 	{
 		try
 		{
@@ -1715,7 +1713,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Action_UnityEngine_AsyncOperation(IntPtr L)
+	static int System_Action_UnityEngine_AsyncOperation(IntPtr L)
 	{
 		try
 		{
@@ -1742,7 +1740,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int System_Action_int_int(IntPtr L)
+	static int System_Action_int_int(IntPtr L)
 	{
 		try
 		{
@@ -1769,7 +1767,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int bell_ai_t100_remotecontrol_XDeviceSupport_XPointChangeEvent(IntPtr L)
+	static int bell_ai_t100_remotecontrol_XDeviceSupport_XPointChangeEvent(IntPtr L)
 	{
 		try
 		{
@@ -1796,7 +1794,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_MeshRenderer(IntPtr L)
+	static int LuaOpen_UnityEngine_MeshRenderer(IntPtr L)
 	{
 		try
 		{
@@ -1814,7 +1812,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_BoxCollider(IntPtr L)
+	static int LuaOpen_UnityEngine_BoxCollider(IntPtr L)
 	{
 		try
 		{
@@ -1832,7 +1830,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_MeshCollider(IntPtr L)
+	static int LuaOpen_UnityEngine_MeshCollider(IntPtr L)
 	{
 		try
 		{
@@ -1850,7 +1848,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_SphereCollider(IntPtr L)
+	static int LuaOpen_UnityEngine_SphereCollider(IntPtr L)
 	{
 		try
 		{
@@ -1868,7 +1866,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_CharacterController(IntPtr L)
+	static int LuaOpen_UnityEngine_CharacterController(IntPtr L)
 	{
 		try
 		{
@@ -1886,7 +1884,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_CapsuleCollider(IntPtr L)
+	static int LuaOpen_UnityEngine_CapsuleCollider(IntPtr L)
 	{
 		try
 		{
@@ -1904,7 +1902,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_Animation(IntPtr L)
+	static int LuaOpen_UnityEngine_Animation(IntPtr L)
 	{
 		try
 		{
@@ -1922,7 +1920,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_AnimationClip(IntPtr L)
+	static int LuaOpen_UnityEngine_AnimationClip(IntPtr L)
 	{
 		try
 		{
@@ -1940,7 +1938,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_AnimationState(IntPtr L)
+	static int LuaOpen_UnityEngine_AnimationState(IntPtr L)
 	{
 		try
 		{
@@ -1958,7 +1956,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_BlendWeights(IntPtr L)
+	static int LuaOpen_UnityEngine_BlendWeights(IntPtr L)
 	{
 		try
 		{
@@ -1976,7 +1974,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_RenderTexture(IntPtr L)
+	static int LuaOpen_UnityEngine_RenderTexture(IntPtr L)
 	{
 		try
 		{
@@ -1994,7 +1992,7 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
-	public static int LuaOpen_UnityEngine_Rigidbody(IntPtr L)
+	static int LuaOpen_UnityEngine_Rigidbody(IntPtr L)
 	{
 		try
 		{

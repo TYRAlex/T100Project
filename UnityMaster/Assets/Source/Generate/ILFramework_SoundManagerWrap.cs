@@ -21,6 +21,7 @@ public class ILFramework_SoundManagerWrap
 		L.RegFunction("GetLength", GetLength);
 		L.RegFunction("ResetStatus", ResetStatus);
 		L.RegFunction("ResetClip", ResetClip);
+		L.RegFunction("StopAll", StopAll);
 		L.RegFunction("Stop", Stop);
 		L.RegFunction("SetLuaVoiceCallBack", SetLuaVoiceCallBack);
 		L.RegFunction("BgSoundPart1", BgSoundPart1);
@@ -444,6 +445,22 @@ public class ILFramework_SoundManagerWrap
 			{
 				return LuaDLL.luaL_throw(L, "invalid arguments to method: ILFramework.SoundManager.ResetClip");
 			}
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int StopAll(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 1);
+			ILFramework.SoundManager obj = (ILFramework.SoundManager)ToLua.CheckObject<ILFramework.SoundManager>(L, 1);
+			obj.StopAll();
+			return 0;
 		}
 		catch (Exception e)
 		{

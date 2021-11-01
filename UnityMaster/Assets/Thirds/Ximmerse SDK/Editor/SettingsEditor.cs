@@ -63,6 +63,7 @@ namespace Ximmerse {
 		}
 
 		protected virtual void OnGUI () {
+			
 			var resourcePath=GetResourcePath();
 #if !(UNITY_5_0)
 			var logo=AssetDatabase.LoadAssetAtPath<Texture2D>(resourcePath+"GameAssets/Textures/ui_xim_logo_01.png");

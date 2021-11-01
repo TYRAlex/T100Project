@@ -2,6 +2,7 @@
 using LuaInterface;
 using UnityEngine;
 using System;
+using System.IO;
 using UnityEngine.Video;
 using UnityEngine.UI;
 
@@ -65,11 +66,16 @@ namespace ILFramework
         {
             string result = "";
 #if UNITY_EDITOR
+            
             result = "Assets/HotFixPackage/" + HotfixManager.instance.curShowPackage.Name + "/Videos/" + videoName;
 #elif UNITY_ANDROID
             if (HotfixManager.instance.CurrentDynamicPath != string.Empty)
             {
-                result="file://" + HotfixManager.instance.CurrentDynamicPath+ "/"+ HotfixManager.instance.curShowPackage.CourseName + "/" + videoName;
+                //result="file://" + HotfixManager.instance.CurrentDynamicPath+ "/"+ HotfixManager.instance.curShowPackage.CourseName + "/" + videoName;
+                //result=HotfixManager.instance.CurrentDynamicPath+ "/"+ HotfixManager.instance.curShowPackage.CourseName + "/" + videoName;
+                result = Path.Combine(
+                    HotfixManager.instance.CurrentDynamicPath + "/" + HotfixManager.instance.curShowPackage.CourseName,
+                    videoName);
             }
             else
             {
@@ -109,6 +115,13 @@ namespace ILFramework
             InstiateVideoPlayer();
             Debug.LogFormat(" video url : {0} ", videoName);
             videoPlayer.url = GetVideoPath(videoName);
+            Debug.LogError("路径为:" + GetVideoPath(videoName) + "是否存在" + File.Exists(GetVideoPath(videoName)));
+            if(File.Exists(GetVideoPath(videoName)))
+            {
+                byte[] data = File.ReadAllBytes(GetVideoPath(videoName));
+                Debug.LogError("长度为："+data.Length);
+            }
+        
             videoPlayer.playOnAwake = false;
             videoPlayer.prepareCompleted += (videoSource) => { videoPlayer.Play(); };
             videoPlayer.Prepare();

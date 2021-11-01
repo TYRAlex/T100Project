@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using LuaInterface;
 using System;
 using OneID;
+using UnityEditor;
 using UnityEngine.Networking;
 using UObject = UnityEngine.Object;
 using UnityEngine.Profiling;
@@ -135,11 +136,25 @@ namespace ILFramework
                 return default;
             AssetBundle ab = dynamicResDic[package];
             Debug.LogFormat(" ResourceManager LoadCourseResource assetbundle: {0} , resName: {1} , packageName: {2}", ab, resName, package.Name);
-
+            
             T obj = ab.LoadAsset<T>(resName);
             Debug.LogFormat(" LoadCourseResource Over, Obj: {0} ", obj);
             return obj;
         }
+
+        public T LoadResourceAB<T>(string resName,string resourceType=".prefab") where T : UObject
+        {
+#if UNITY_EDITOR
+            T dynamicRecourse =
+                AssetDatabase.LoadAssetAtPath<T>("Assets/HotFixPackage/" + HotfixManager.instance.curShowPackage.Name + "/LoadResource/" + resName+resourceType);
+            Debug.LogFormat(" LoadCourseResource Over, Obj: {0} ", dynamicRecourse);
+            return dynamicRecourse;
+#endif
+            Debug.LogError("你在用编辑器模式下的加载方式，请检查！");
+            return null;
+        }
+
+
 
         /// <summary>
         /// 加载公共资源

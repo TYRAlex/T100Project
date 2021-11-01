@@ -1,0 +1,20 @@
+
+LR.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+LR
+  rotate: false
+  xy: 2, 96
+  size: 121, 150
+  orig: 121, 150
+  offset: 0, 0
+  index: -1
+LR2
+  rotate: false
+  xy: 125, 96
+  size: 121, 150
+  orig: 121, 150
+  offset: 0, 0
+  index: -1

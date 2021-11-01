@@ -31,10 +31,14 @@ namespace easyar
         private CameraParameters parameters = null;
         private bool willOpen;
 
+        public bool IsOpened = false;
+
         public event Action DeviceCreated;
         public event Action DeviceOpened;
         public event Action DeviceClosed;
 
+        public event Action DeviceJudgeOpened;
+        
         public enum CameraDeviceOpenMethod
         {
             DeviceType,
@@ -108,10 +112,21 @@ namespace easyar
         protected override void OnEnable()
         {
             base.OnEnable();
+            IsOpened = false;
+            
             if (Device != null)
             {
-                Device.start();
+                bool isOpened= Device.start();
+                IsOpened = isOpened;
+                DeviceJudgeOpened?.Invoke();
             }
+            //Debug.LogError("isOpened:"+IsOpened);
+        }
+
+
+        public void DeviceStart()
+        {
+            IsOpened= Device.start();
         }
 
         protected override void Start()
@@ -140,6 +155,7 @@ namespace easyar
             {
                 if (!willOpen)
                 {
+                    
                     return;
                 }
                 if (status != PermissionStatus.Granted)
@@ -158,14 +174,18 @@ namespace easyar
                 switch (CameraOpenMethod)
                 {
                     case CameraDeviceOpenMethod.DeviceType:
+                       
                         openResult = Device.openWithPreferredType(CameraType);
                         break;
                     case CameraDeviceOpenMethod.DeviceIndex:
+                      
                         openResult = Device.openWithIndex(CameraIndex);
                         break;
                     default:
                         break;
                 }
+
+                
                 if (!openResult)
                 {
                     Debug.LogError("Camera open failed");
@@ -176,6 +196,7 @@ namespace easyar
 
                 Device.setFocusMode(FocusMode);
                 Device.setSize(new Vec2I((int)CameraSize.x, (int)CameraSize.y));
+               
                 if (parameters != null)
                 {
                     Device.setCameraParameters(parameters);
@@ -190,6 +211,7 @@ namespace easyar
 
                 if (DeviceOpened != null)
                 {
+                  
                     DeviceOpened();
                 }
 

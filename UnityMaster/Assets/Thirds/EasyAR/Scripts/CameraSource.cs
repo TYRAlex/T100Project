@@ -28,6 +28,7 @@ namespace easyar
         {
             if (!EasyARController.Initialized)
             {
+                print("can't initialized!");
                 return;
             }
             Open();

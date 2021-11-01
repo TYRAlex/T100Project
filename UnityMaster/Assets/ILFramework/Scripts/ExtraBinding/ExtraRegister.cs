@@ -39,6 +39,16 @@ namespace ILFramework
             appDomain.DelegateManager.RegisterMethodDelegate<Spine.TrackEntry>();
             appDomain.DelegateManager.RegisterMethodDelegate<System.String, System.Collections.Generic.List<System.String>>();
             appDomain.DelegateManager.RegisterMethodDelegate<System.String, System.String>();
+            appDomain.DelegateManager.RegisterFunctionDelegate<UnityEngine.Transform, System.Boolean>();
+
+
+            appDomain.DelegateManager.RegisterDelegateConvertor<System.Predicate<UnityEngine.Transform>>((act) =>
+            {
+                return new System.Predicate<UnityEngine.Transform>((obj) =>
+                {
+                    return ((Func<UnityEngine.Transform, System.Boolean>)act)(obj);
+                });
+            });
 
             
             appDomain.DelegateManager.RegisterDelegateConvertor<ILFramework.Scripts.Utility.TabletWebsocketController.DinosaurMoveDelegate>((act) =>

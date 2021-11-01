@@ -40,7 +40,7 @@ namespace ILFramework
         {
             audiosPrefabName = new string[] { "Bgm", "Sound", "Voice", "CommonRes_Bgm", "CommonRes_Sound", "CommonRes_Voice" };
             soundTypes = new SoundType[] { SoundType.BGM, SoundType.SOUND, SoundType.VOICE, SoundType.COMMONBGM, SoundType.COMMONSOUND, SoundType.COMMONVOICE };
-
+            
             skipBtn.SetActive(false);
             ShowVoiceBtn(false);
             sheildGo.SetActive(false);

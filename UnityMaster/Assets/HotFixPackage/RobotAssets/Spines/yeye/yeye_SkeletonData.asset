@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: yeye_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: 675f9b4603c76514ea7a09c3291389cd, type: 2}
+  - {fileID: 11400000, guid: 840d04e5960e29c46946a61ba824961f, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: cfefc66f34c55a74783ca3a0e4c31faf, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 7be016617a1354146885df101ebe70ee, type: 3}
   fromAnimation: []
   toAnimation: []
   duration: []

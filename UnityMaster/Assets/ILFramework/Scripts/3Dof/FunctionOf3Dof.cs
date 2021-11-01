@@ -395,7 +395,7 @@ namespace ILFramework
                 _padBtnRight = false;
                 _padBtnTop = false;
                 _padBtnBotton = false;
-                _padBtnCenter = false;
+                _padBtnCenter = false; 
             }
 
             Current3DofCallBack?.Invoke();

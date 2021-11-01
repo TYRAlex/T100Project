@@ -46,7 +46,11 @@ public class LuaManager : Manager<LuaManager>
         lualoader = new LuaResLoader();
         lualoader.beZip = true;
         LoadToLua();
+        
+        
         gameObject.AddComponent<LuaClient>();
+        GlobalLua = LuaClient.GetMainState();
+        Debug.LogFormat(" LuaState Start.... {0} ", GlobalLua);
         // GlobalLua = new LuaState();
         // GlobalLua.LuaSetTop(0);
         // LuaBinder.Bind(GlobalLua);
@@ -55,8 +59,8 @@ public class LuaManager : Manager<LuaManager>
         //GlobalLua.Start();
         //loop = gameObject.AddComponent<LuaLooper>();
         //loop.luaState = GlobalLua;
-        GlobalLua = LuaClient.GetMainState();
-        Debug.LogFormat(" LuaState Start.... {0} ", GlobalLua);
+        
+        
     }
 
     void LoadToLua()

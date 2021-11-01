@@ -12,6 +12,7 @@ public class ILFramework_ResourceManagerWrap
 		L.RegFunction("AddCourseResAB", AddCourseResAB);
 		L.RegFunction("ResetAudioAndCourseResAB", ResetAudioAndCourseResAB);
 		L.RegFunction("RemoveResourceAB", RemoveResourceAB);
+		L.RegFunction("LoadOneIDCommonPrefabAsyn", LoadOneIDCommonPrefabAsyn);
 		L.RegFunction("ReloadAssetBundle", ReloadAssetBundle);
 		L.RegFunction("LoadPrefab", LoadPrefab);
 		L.RegFunction("LoadCommonPrefab", LoadCommonPrefab);
@@ -98,6 +99,23 @@ public class ILFramework_ResourceManagerWrap
 			ILFramework.ResourceManager obj = (ILFramework.ResourceManager)ToLua.CheckObject<ILFramework.ResourceManager>(L, 1);
 			ILFramework.HotfixPackage arg0 = (ILFramework.HotfixPackage)ToLua.CheckObject<ILFramework.HotfixPackage>(L, 2);
 			obj.RemoveResourceAB(arg0);
+			return 0;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LoadOneIDCommonPrefabAsyn(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			ILFramework.ResourceManager obj = (ILFramework.ResourceManager)ToLua.CheckObject<ILFramework.ResourceManager>(L, 1);
+			string arg0 = ToLua.CheckString(L, 2);
+			obj.LoadOneIDCommonPrefabAsyn(arg0);
 			return 0;
 		}
 		catch (Exception e)

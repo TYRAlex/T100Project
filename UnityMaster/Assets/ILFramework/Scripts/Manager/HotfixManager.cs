@@ -70,13 +70,13 @@ namespace ILFramework
 
         private void FixedUpdate()
         {
-            LineMove(Line1Rect);
-            LineMove(Line2Rect);
+            // LineMove(Line1Rect);
+            // LineMove(Line2Rect);
 
             if (abRequest != null)
             {
                 progress.value = ((abRequest.progress == 1 ? 0 : abRequest.progress) / totalPro) + (curPro / totalPro);
-                if (abRequest.progress <= 0 || float.IsNaN(progress.value))
+                if (float.IsNaN(progress.value))
                     progress.value = 0;
                 _progressStrBuilder.Replace(_lastValue, (progress.value * 100).ToString("#0"));
                 
@@ -115,6 +115,8 @@ namespace ILFramework
             
         }
 
+        
+
         void ResetProgress()
         {
             progress.value = 0;
@@ -139,6 +141,7 @@ namespace ILFramework
 
         void Start()
         {
+            
             isCommonLoaded = false;
             isStartLoadCommon = false;
             ResetProgress();
@@ -165,10 +168,10 @@ namespace ILFramework
             // 加载通用资源AB
 #if !UNITY_EDITOR && UNITY_STANDALONE_WIN
             
-            var commonws = UnityWebRequestAssetBundle.GetAssetBundle(Application.streamingAssetsPath + "/" + AppConst.common + "/windows/" + AppConst.commonAB_Audio.ToLower());
+            commonws = UnityWebRequestAssetBundle.GetAssetBundle(Application.streamingAssetsPath + "/" + AppConst.common + "/windows/" + AppConst.commonAB_Audio.ToLower());
 #elif !UNITY_EDITOR && UNITY_STANDALONE_OSX
            
-            var commonws = UnityWebRequestAssetBundle.GetAssetBundle("file://"+Application.streamingAssetsPath + "/" + AppConst.common + "/osx/" + AppConst.commonAB_Audio.ToLower());
+            commonws = UnityWebRequestAssetBundle.GetAssetBundle("file://"+Application.streamingAssetsPath + "/" + AppConst.common + "/osx/" + AppConst.commonAB_Audio.ToLower());
 #elif UNITY_ANDROID && !UNITY_EDITOR
 
             string currentPath =
@@ -242,7 +245,7 @@ namespace ILFramework
                              SoundManager.instance.commonClips.Add(SoundManager.instance.soundTypes[currentIndex], clips);
                              //Debug.LogError("添加成功！："+SoundManager.instance.commonClips.Count);
                          }
-                         if (GetCurrenAndroidVersion.GetVersionInt() >= 29)
+                         if (GameManager.instance.IsUsingNewAudioFunc&& GetCurrenAndroidVersion.GetVersionInt() >= 29)
                          {
                              for (int j = 0; j < clips.Length; j++)
                              {
@@ -269,17 +272,23 @@ namespace ILFramework
                      }
                      go=abRequest.asset as GameObject;
                      clips = go.GetComponent<BellAudiosClip>().clips;
-                     for (int i = 0; i < clips.Length; i++)
+                     if (GameManager.instance.IsUsingNewAudioFunc && GetCurrenAndroidVersion.GetVersionInt() >= 29)
                      {
-                         AudioClip targetClip = clips[i];
-                         LoadBeBO1CommonClip(targetClip, i.ToString());
+                         for (int i = 0; i < clips.Length; i++)
+                         {
+                             AudioClip targetClip = clips[i];
+                             LoadBeBO1CommonClip(targetClip, i.ToString());
+                         }
+                         Debug.LogError("所有BeBO1资源下载成功，现在开始加载");
+                    
+                         // for (int i = 0; i < clips.Length; i++)
+                         // {
+                         //     AndroidNativeAudioMgr.LoadBeBO1CommonClip(i.ToString());
+                         // }
+                         // Debug.LogError("所有BeBO1资源加载成功");
                      }
-                     Debug.LogError("所有BeBO1资源下载成功，现在开始加载");
-                     // for (int i = 0; i < clips.Length; i++)
-                     // {
-                     //     AndroidNativeAudioMgr.LoadBeBO1CommonClip(i.ToString());
-                     // }
-                     // Debug.LogError("所有BeBO1资源加载成功");
+
+                    
                      SoundManager.instance.bebo1_commonClips = clips;
                      curPro++;
                      audioAB.Unload(false);
@@ -710,7 +719,7 @@ namespace ILFramework
                     
 #if UNITY_ANDROID && !UNITY_EDITOR
                      Debug.LogError("开始加载所有音频");
-                     if (GetCurrenAndroidVersion.GetVersionInt() >= 29)
+                     if (GameManager.instance.IsUsingNewAudioFunc&&GetCurrenAndroidVersion.GetVersionInt() >= 29)
                      {
                         for (int i = 0; i < clips.Length; i++)
                         {
@@ -786,19 +795,24 @@ namespace ILFramework
 
         void LoadBeBO1CommonClip(AudioClip clip,string indexName)
         {
-            string path = Application.platform == RuntimePlatform.Android
-                ? Application.persistentDataPath.Replace("ai.bell.BeBOCourseDefaultPlayer",
-                    "bell.ai.bebo.launcher") + "/static/resource/Common/Audio/BeBO1Audio" 
-                : Application.dataPath + "/../OutHotfixAssetPackage/Audio/BeBO1Audio";
-            if (!Directory.Exists(path))
+            if (GameManager.instance.IsUsingNewAudioFunc && GetCurrenAndroidVersion.GetVersionInt() >= 29)
             {
-                Directory.CreateDirectory(path);
-            }
+                string path = Application.platform == RuntimePlatform.Android
+                    ? Application.persistentDataPath.Replace("ai.bell.BeBOCourseDefaultPlayer",
+                        "bell.ai.bebo.launcher") + "/static/resource/Common/Audio/BeBO1Audio" 
+                    : Application.dataPath + "/../OutHotfixAssetPackage/Audio/BeBO1Audio";
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
             
-            if (!File.Exists(path + "/" + indexName + ".mp3"))
-            {
-                EncodeMP3.convert(clip, path+ "/" + indexName + ".mp3", 512);
+                if (!File.Exists(path + "/" + indexName + ".mp3"))
+                {
+                    EncodeMP3.convert(clip, path+ "/" + indexName + ".mp3", 512);
+                }
             }
+
+            
         }
 
         IEnumerator LoadCoursePart(HotfixPackage package, Action<HotfixPackage> callback)
