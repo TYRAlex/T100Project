@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95b256bb-04ee-41a7-898f-a1b61caf6005" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course227/Part1/Audios/bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course227/Part2/Audios/bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course711/Part1/Spines/1.atlas 1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course711/Part1/Spines/1.atlas 1.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course711/Part1/Textures/LeftButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course711/Part1/Textures/LeftButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course711/Part1/Textures/RightButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course711/Part1/Textures/RightButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course718/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course722/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course729/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course729/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course729/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course729/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8311/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8311/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part2/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course8313/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course832/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/不错啊，Max.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/不错啊，Max.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/什么是可见光啊.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/什么是可见光啊.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/其实太阳光是由很多波长不同的光波组合而成.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/其实太阳光是由很多波长不同的光波组合而成.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/只有一小部分是可见光驱，是可以被人眼看见的，像红色、黄色.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/只有一小部分是可见光驱，是可以被人眼看见的，像红色、黄色.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/在光谱图中，一大部分是不可见光区，是不被人眼看见但又真实存在的，像红外线，紫外线.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/在光谱图中，一大部分是不可见光区，是不被人眼看见但又真实存在的，像红外线，紫外线.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/就比如，我们人眼看到的苹果是红色的，是因为.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/就比如，我们人眼看到的苹果是红色的，是因为.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/当太阳光照射到苹果上.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/当太阳光照射到苹果上.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/彩虹可真美,有红橙黄绿青蓝紫七种颜色.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/彩虹可真美,有红橙黄绿青蓝紫七种颜色.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/所以我们人脑就判断苹果是红色的了.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/所以我们人脑就判断苹果是红色的了.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/没被吸收的红光就被苹果的表面反射到人眼中.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/没被吸收的红光就被苹果的表面反射到人眼中.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/真厉害，Max.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/真厉害，Max.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/科学家们还以此做出了光谱图.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/科学家们还以此做出了光谱图.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/绝大多数的光都被苹果吸收了，只剩下红色光.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/绝大多数的光都被苹果吸收了，只剩下红色光.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/而每个物体的颜色，又是由它反射的光决定的.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/而每个物体的颜色，又是由它反射的光决定的.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/要想明白这个，得先明白太阳光的知识.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/要想明白这个，得先明白太阳光的知识.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/这就是可见光的颜色.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/这就是可见光的颜色.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/颜色识别.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course835/Part1/Audios/Voice/颜色识别.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course839/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course839/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course839/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course9110/Part2/Textures/w-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course9110/Part2/Textures/w-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course913/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course913/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3.atlas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3.atlas.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3_Atlas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3_Atlas.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3_SkeletonData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/3_SkeletonData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2.atlas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2.atlas.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2_Atlas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2_Atlas.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2_SkeletonData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course915/Part1/Spines/4_2_SkeletonData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course916/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course916/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/Course916/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseBusySpider/Part1/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseBusySpider/Part3/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseGlassArt/Part3/Spines/winSpine/win_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseGlassArt/Part3/Spines/winSpine/win_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseHieroglyphsPart1/Spines/animation_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseHieroglyphsPart1/Spines/animation_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseLeapOfSalman/Part1/Spines/version_2/salmon1Spine/skeleton_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseLeapOfSalman/Part1/Spines/version_2/salmon1Spine/skeleton_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseOwlPart1/Spines/animation_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseOwlPart1/Spines/animation_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseStaticFruit/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseStaticFruit/Part3/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseStaticFruit/Part4/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG1P1L07/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG1P1L09/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG1P1L10/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG1P2L13/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P1L09/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P2L13/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P2L14/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P2L14/Part3/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P2L14/Part4/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P2L14/Part5/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG2P2L14/Part6/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG3P1L10/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG3P2L13/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG4P1L08/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG4P2L13/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG4P2L13/Part3/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG4P2L13/Part4/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG4P2L13/Part5/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDG4P2L13/Part6/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDKP1L10/Part2/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTDKP2L13/Part1/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTropical/Part1/Spines/ComplateBtn/skeleton.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/CourseTropical/Part1/Spines/ComplateBtn/skeleton.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/FrogePart3/Spines/C_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/FrogePart3/Spines/C_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3412/Part6/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part5/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part6/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part7/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD3414/Part7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5611/Part6/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5612/Part5/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5613/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5614/Part7/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5621/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part5/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part6/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part7/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part8/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part8/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part8/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part8/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part9/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part9/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part9/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part9/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5623/Part9/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part1/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part1/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part5/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part6/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part7/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part8/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part8/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part8/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part8/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part8/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part8/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part9/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part9/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part9/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part9/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD5624/Part9/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6711/Part7/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6712/Part6/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part6/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6713/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part7/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD6714/Part7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8911/Part7/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part2/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8912/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6.atlas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6.atlas.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6_Atlas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6_Atlas.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6_SkeletonData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8913/Part2/Spines/2/6_SkeletonData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8914/Part7/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part2/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8921/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part5/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8922/Part7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part1/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part2/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part3/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part4/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part5/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part5/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part6/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part8/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part8/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part8/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part8/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD8923/Part8/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91211/Part5/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part1/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part2/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part2/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part3/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part3/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part3/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part3/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part4/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part4/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91213/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TD91214/Part6/Audios.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part1/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part1/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part2/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part2/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part2/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part2/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part3/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part4/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part4/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part4/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part5/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part5/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part5/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part5/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part6/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part6/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part6/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part6/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part6/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part6/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part7/Audios/Bgm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part7/Audios/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part7/Audios/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part7/LoadResource.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part7/Spines.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/HotFixPackage/TDNL/Part7/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/ILFramework/Scenes/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/ILFramework/Scenes/main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/ILFramework/Scripts/Manager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/ILFramework/Scripts/Manager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Spine/Spine/spine-csharp/bin/Debug.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Spine/Spine/spine-csharp/bin/Release.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Spine/Spine/spine-csharp/obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Thirds/EasyAR/Scripts/CameraImageRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Thirds/EasyAR/Scripts/CameraImageRenderer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Thirds/UnityWebsocket/Scripts/Communicate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Thirds/UnityWebsocket/Scripts/Communicate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Thirds/UnityWebsocket/Scripts/MessageCenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Thirds/UnityWebsocket/Scripts/MessageCenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Thirds/UnityWebsocket/Scripts/MessageCenterImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Thirds/UnityWebsocket/Scripts/MessageCenterImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/android" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/android" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/android.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/android.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/commonaudio_htp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/commonaudio_htp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/commonaudio_htp.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/commonaudio_htp.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/commondynamic_htp.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/../../../OutHotfixAssetPackage/Common/android/commondynamic_htp.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../课程ID和Name.xls" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程ID和Name.xls" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TD91212Part1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Assets/ILFramework/Scripts/Manager/SoundManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TD91212Part1.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iwzVuinXNJT7kjWZ7cjhcFfHBp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95b256bb-04ee-41a7-898f-a1b61caf6005" name="Default Changelist" comment="" />
+      <created>1602833468035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602833468035</updated>
+      <workItem from="1602833475922" duration="10000" />
+      <workItem from="1602833549243" duration="1244000" />
+      <workItem from="1603354043559" duration="24394000" />
+      <workItem from="1603443626399" duration="54945000" />
+      <workItem from="1603809562708" duration="196000" />
+      <workItem from="1604490833132" duration="2207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

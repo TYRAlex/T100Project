@@ -1,0 +1,188 @@
+
+bell.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a1
+  rotate: false
+  xy: 2, 140
+  size: 131, 110
+  orig: 131, 110
+  offset: 0, 0
+  index: -1
+a10
+  rotate: true
+  xy: 100, 8
+  size: 18, 24
+  orig: 18, 24
+  offset: 0, 0
+  index: -1
+a2
+  rotate: false
+  xy: 158, 3
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+a3
+  rotate: false
+  xy: 158, 18
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+a4
+  rotate: false
+  xy: 158, 18
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+a5
+  rotate: true
+  xy: 73, 9
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+a6
+  rotate: false
+  xy: 126, 7
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+a7
+  rotate: false
+  xy: 142, 7
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+a8
+  rotate: true
+  xy: 2, 2
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+a9
+  rotate: false
+  xy: 182, 44
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+b1
+  rotate: false
+  xy: 2, 28
+  size: 131, 110
+  orig: 131, 110
+  offset: 0, 0
+  index: -1
+b2
+  rotate: false
+  xy: 182, 32
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+b3
+  rotate: true
+  xy: 208, 56
+  size: 22, 13
+  orig: 22, 13
+  offset: 0, 0
+  index: -1
+b4
+  rotate: false
+  xy: 225, 76
+  size: 22, 13
+  orig: 22, 13
+  offset: 0, 0
+  index: -1
+b5
+  rotate: false
+  xy: 208, 40
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+b6
+  rotate: false
+  xy: 225, 44
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+b7
+  rotate: false
+  xy: 135, 34
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+b8
+  rotate: false
+  xy: 182, 80
+  size: 41, 37
+  orig: 41, 37
+  offset: 0, 0
+  index: -1
+b9
+  rotate: false
+  xy: 135, 76
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+c1
+  rotate: true
+  xy: 135, 119
+  size: 131, 110
+  orig: 131, 110
+  offset: 0, 0
+  index: -1
+c2
+  rotate: true
+  xy: 223, 60
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+c3
+  rotate: true
+  xy: 223, 60
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+c4
+  rotate: false
+  xy: 135, 28
+  size: 17, 4
+  orig: 17, 4
+  offset: 0, 0
+  index: -1
+c5
+  rotate: false
+  xy: 135, 28
+  size: 17, 4
+  orig: 17, 4
+  offset: 0, 0
+  index: -1
+c6
+  rotate: true
+  xy: 38, 2
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+c7
+  rotate: false
+  xy: 225, 91
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1

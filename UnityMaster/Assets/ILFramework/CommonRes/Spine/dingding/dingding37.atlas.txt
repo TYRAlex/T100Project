@@ -1,0 +1,244 @@
+
+dingding37.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 820, 278
+  size: 146, 173
+  orig: 146, 173
+  offset: 0, 0
+  index: -1
+brow
+  rotate: false
+  xy: 2, 2
+  size: 59, 20
+  orig: 59, 20
+  offset: 0, 0
+  index: -1
+brow1
+  rotate: false
+  xy: 272, 61
+  size: 58, 20
+  orig: 58, 20
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1547, 190
+  size: 76, 75
+  orig: 76, 75
+  offset: 0, 0
+  index: -1
+eye1
+  rotate: false
+  xy: 1625, 190
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+footl
+  rotate: true
+  xy: 452, 66
+  size: 105, 133
+  orig: 105, 133
+  offset: 0, 0
+  index: -1
+footr
+  rotate: true
+  xy: 1413, 159
+  size: 106, 132
+  orig: 106, 132
+  offset: 0, 0
+  index: -1
+glasses
+  rotate: false
+  xy: 452, 367
+  size: 359, 124
+  orig: 359, 124
+  offset: 0, 0
+  index: -1
+hand1
+  rotate: true
+  xy: 820, 137
+  size: 139, 163
+  orig: 139, 163
+  offset: 0, 0
+  index: -1
+hand2
+  rotate: false
+  xy: 1098, 126
+  size: 144, 139
+  orig: 144, 139
+  offset: 0, 0
+  index: -1
+handl
+  rotate: false
+  xy: 587, 174
+  size: 133, 191
+  orig: 133, 191
+  offset: 0, 0
+  index: -1
+handr
+  rotate: false
+  xy: 452, 173
+  size: 133, 192
+  orig: 133, 192
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 83
+  size: 448, 408
+  orig: 448, 408
+  offset: 0, 0
+  index: -1
+mouth/fun/00001
+  rotate: true
+  xy: 968, 284
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00002
+  rotate: true
+  xy: 985, 115
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00003
+  rotate: false
+  xy: 587, 61
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00009
+  rotate: false
+  xy: 587, 61
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00004
+  rotate: false
+  xy: 1083, 380
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00008
+  rotate: false
+  xy: 1083, 380
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00005
+  rotate: false
+  xy: 1252, 380
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00006
+  rotate: false
+  xy: 1421, 380
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/fun/00007
+  rotate: false
+  xy: 1590, 380
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00001
+  rotate: false
+  xy: 1759, 380
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00002
+  rotate: true
+  xy: 1928, 324
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00003
+  rotate: false
+  xy: 1183, 267
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00004
+  rotate: false
+  xy: 1352, 267
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00005
+  rotate: false
+  xy: 1521, 267
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00006
+  rotate: false
+  xy: 1690, 267
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+mouth/sad/00007
+  rotate: false
+  xy: 1244, 154
+  size: 167, 111
+  orig: 167, 111
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 756, 152
+  size: 24, 20
+  orig: 24, 20
+  offset: 0, 0
+  index: -1
+pen
+  rotate: true
+  xy: 722, 174
+  size: 191, 96
+  orig: 191, 96
+  offset: 0, 0
+  index: -1
+tie
+  rotate: false
+  xy: 1081, 288
+  size: 100, 90
+  orig: 100, 90
+  offset: 0, 0
+  index: -1
+yps
+  rotate: false
+  xy: 2, 24
+  size: 268, 57
+  orig: 268, 57
+  offset: 0, 0
+  index: -1
+ypx
+  rotate: false
+  xy: 813, 453
+  size: 268, 38
+  orig: 268, 38
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+sp.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 100
+  size: 90, 70
+  orig: 90, 70
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 41
+  size: 51, 57
+  orig: 51, 57
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 55, 60
+  size: 35, 38
+  orig: 35, 38
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 94, 125
+  size: 38, 45
+  orig: 38, 45
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 2
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1

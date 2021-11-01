@@ -1,0 +1,20 @@
+
+animate.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd
+  rotate: false
+  xy: 63, 20
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 2, 2
+  size: 59, 56
+  orig: 59, 56
+  offset: 0, 0
+  index: -1

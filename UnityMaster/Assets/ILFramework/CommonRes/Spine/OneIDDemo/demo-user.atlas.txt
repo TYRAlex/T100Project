@@ -1,0 +1,62 @@
+
+demo-user.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+txa21
+  rotate: false
+  xy: 2, 542
+  size: 176, 179
+  orig: 176, 179
+  offset: 0, 0
+  index: -1
+txa22
+  rotate: false
+  xy: 2, 361
+  size: 176, 179
+  orig: 176, 179
+  offset: 0, 0
+  index: -1
+txaz3
+  rotate: false
+  xy: 180, 542
+  size: 176, 179
+  orig: 176, 179
+  offset: 0, 0
+  index: -1
+txaz4
+  rotate: false
+  xy: 2, 180
+  size: 176, 179
+  orig: 176, 179
+  offset: 0, 0
+  index: -1
+txbz1
+  rotate: false
+  xy: 358, 545
+  size: 173, 176
+  orig: 173, 176
+  offset: 0, 0
+  index: -1
+txbz2
+  rotate: false
+  xy: 2, 2
+  size: 173, 176
+  orig: 173, 176
+  offset: 0, 0
+  index: -1
+txbz3
+  rotate: false
+  xy: 180, 183
+  size: 173, 176
+  orig: 173, 176
+  offset: 0, 0
+  index: -1
+txbz4
+  rotate: false
+  xy: 180, 361
+  size: 176, 179
+  orig: 176, 179
+  offset: 0, 0
+  index: -1

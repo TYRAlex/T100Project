@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\bell\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\bell\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_.19.02" t="ExcludeRecursive" />
+    <e p="E:\UnityMaster\HotfixCodeProject\TD3413\Part7" t="IncludeRecursive">
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TD3413Part7.cs" t="Include" />
+      <e p="TD3413Part7.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="E:\UnityMaster\OutHotfixAssetPackage\TD3413\Part7" t="ExcludeRecursive" />
+  </component>
+</project>

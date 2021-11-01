@@ -1,0 +1,34 @@
+
+ANNIU.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ANNIU1
+  rotate: false
+  xy: 2, 33
+  size: 236, 141
+  orig: 236, 141
+  offset: 0, 0
+  index: -1
+ANNIU3
+  rotate: false
+  xy: 2, 2
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+ANNIU11
+  rotate: false
+  xy: 2, 2
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+ANNIU12
+  rotate: false
+  xy: 2, 2
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1

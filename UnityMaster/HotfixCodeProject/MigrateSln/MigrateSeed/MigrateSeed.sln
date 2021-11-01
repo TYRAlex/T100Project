@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigrateSeed", "MigrateSeed\MigrateSeed.csproj", "{4935D3AA-E321-4310-BE96-9B11392F6337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4935D3AA-E321-4310-BE96-9B11392F6337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4935D3AA-E321-4310-BE96-9B11392F6337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4935D3AA-E321-4310-BE96-9B11392F6337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4935D3AA-E321-4310-BE96-9B11392F6337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C70B3B9-DD66-4345-9CDE-712F3C0CA5C4}
+	EndGlobalSection
+EndGlobal

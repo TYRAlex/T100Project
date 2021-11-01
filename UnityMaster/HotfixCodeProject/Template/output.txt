@@ -1,0 +1,44 @@
+1>------ 已启动全部重新生成: 项目: TD5663TestPart1, 配置: Debug Any CPU ------
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: TD5663TestPart1, 配置: Debug Any CPU ------
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+1>------ 已启动全部重新生成: 项目: TD5663TestPart3, 配置: Debug Any CPU ------
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: TD5663Part1, 配置: Debug Any CPU ------
+1>E:\UnityMaster\HotfixCodeProject\TD5663\Part1\TD5663Part1.cs(76,24,76,38): warning CS0414: 字段“TD5663Part1._dentalForceps”已被赋值，但从未使用过它的值
+1>E:\UnityMaster\HotfixCodeProject\TD5663\Part1\TD5663Part1.cs(39,22,39,32): warning CS0414: 字段“TD5663Part1._isPlaying”已被赋值，但从未使用过它的值
+1>E:\UnityMaster\HotfixCodeProject\TD5663\Part1\TD5663Part1.cs(80,24,80,35): warning CS0414: 字段“TD5663Part1._ultrasonic”已被赋值，但从未使用过它的值
+1>E:\UnityMaster\HotfixCodeProject\TD5663\Part1\TD5663Part1.cs(88,24,88,33): warning CS0414: 字段“TD5663Part1._tweezers”已被赋值，但从未使用过它的值
+1>E:\UnityMaster\HotfixCodeProject\TD5663\Part1\TD5663Part1.cs(84,24,84,38): warning CS0414: 字段“TD5663Part1._oralIrrigator”已被赋值，但从未使用过它的值
+1>  TD5663Part1 -> E:\UnityMaster\OutHotfixAssetPackage\TD5663\Part1\TD5663Part1.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: TD5663Part2, 配置: Debug Any CPU ------
+1>  TD5663Part2 -> E:\UnityMaster\OutHotfixAssetPackage\TD5663\Part2\TD5663Part2.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: TD5663Part3, 配置: Debug Any CPU ------
+1>  TD5663Part3 -> E:\UnityMaster\OutHotfixAssetPackage\TD5663\Part3\TD5663Part3.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: TD5663Part4, 配置: Debug Any CPU ------
+1>  TD5663Part4 -> E:\UnityMaster\OutHotfixAssetPackage\TD5663\Part4\TD5663Part4.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: TD5663Part5, 配置: Debug Any CPU ------
+1>  TD5663Part5 -> E:\UnityMaster\OutHotfixAssetPackage\TD5663\Part5\TD5663Part5.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+
+已启动重新生成…
+1>------ 已启动全部重新生成: 项目: TD5663Part6, 配置: Debug Any CPU ------
+1>  TD5663Part6 -> E:\UnityMaster\OutHotfixAssetPackage\TD5663\Part6\TD5663Part6.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========
+

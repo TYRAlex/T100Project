@@ -1,0 +1,1674 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D243CA66-D728-617D-3F57-EE957068F19A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.4.9f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_9;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_9;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Managed/UnityEngine/UnityEngine">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.BaselibModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.FileSystemHttpModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.LocalizationModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ProfilerModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpatialTrackingModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StreamingModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StyleSheetsModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextCoreModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TimelineModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VFXModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEditor">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/Unity.Locator">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/2018.4.9/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/2018.4.9/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/2018.4.9/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/2018.4.9/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/2018.4.9/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntim.Mono.Cecil">
+      <HintPath>Assets/ILFramework/Plugins/ILRuntim.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+      <HintPath>Assets/ILFramework/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+      <HintPath>Assets/ILFramework/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>Assets/ILFramework/Plugins/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets/ILFramework/Plugins/System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="CString">
+      <HintPath>Assets/Plugins/CString.dll</HintPath>
+    </Reference>
+    <Reference Include="Debugger">
+      <HintPath>Assets/Plugins/Debugger.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets/Thirds/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Thirds/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets/Thirds/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets/Thirds/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets/Thirds/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets/Thirds/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Thirds/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/Thirds/UnityWebsocket/Plugins/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/Thirds/UnityWebsocket/Thirds/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Vectrosity">
+      <HintPath>Assets/Thirds/Vectrosity/Plugins/Vectrosity.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>E:/BeBo2.0/ILFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>E:/BeBo2.0/ILFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>E:/BeBo2.0/ILFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:\2018.4.9\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PackageManagerUI.Editor.csproj">
+      <Project>{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}</Project>
+      <Name>Unity.PackageManagerUI.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
+      <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
+      <Name>Unity.CollabProxy.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
+      <Project>{D6E266C6-3D1F-28C8-9FEB-2A01E44DBF77}</Project>
+      <Name>Unity.Analytics.DataPrivacy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\Method\CLRMethod.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\Method\ExceptionHandler.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\Method\ILMethod.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\Method\IMethod.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\TypeSystem\CLRType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\TypeSystem\ILGenericParameterType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\TypeSystem\ILType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\TypeSystem\IType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\CLR\Utils\Extensions.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Other\ByReferenceKeyComparer.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Other\DelegateExportAttribute.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Other\NeedAdaptorAttribute.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Other\ThreadSafeDictionary.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Other\UncheckedList.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\Extensions.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimeConstructorInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimeFieldInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimeMethodInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimeParameterInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimePropertyInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimeType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Reflection\ILRuntimeWrapperType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Adaptors\CLRCrossBindingAdaptors.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\BindingCodeGenerator.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\BindingGeneratorExtensions.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\CommonBindingGenerator.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\ConstructorBindingGenerator.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\FieldBindingGenerator.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\MethodBindingGenerator.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\CLRBinding\ValueTypeBindingGenerator.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\BreakPointContext.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\BreakpointInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\DebuggerServer\DebuggerServer.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\DebugMessageType.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\DebugService.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\DebugSocket.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSBindBreakpoint.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSDeleteBreakpoint.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSEnumChildren.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSExecute.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSResolveIndexer.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSResolveVariable.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\CSStep.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCAttachResult.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCBindBreakpointResult.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCBreakpointHit.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCEnumChildrenResult.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCModuleLoaded.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCResolveVariableResult.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCStepComplete.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\Protocol\SCThreadStarted.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\StackFrameInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\StepTypes.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Debugger\VariableInfo.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\AppDomain.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\CLRRedirections.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\CrossBindingAdaptor.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\DelegateManager.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\ILContext.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\InvocationContext.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Enviorment\ValueTypeBinder.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Extensions.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Intepreter\DelegateAdapter.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Intepreter\ILIntepreter.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Intepreter\ILRuntimeException.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Intepreter\ILTypeInstance.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Intepreter\OpCodes\OpCode.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Intepreter\OpCodes\OpCodeEnum.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Stack\RuntimeStack.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Stack\StackFrame.cs" />
+    <Compile Include="Assets\ILFramework\ILRuntime\Runtime\Stack\StackObject.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\INetEventListener.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NatPunchModule.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetConstants.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetDebug.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetEndPoint.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetManager.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetPacket.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetPeer.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetSocket.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetThread.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NetUtils.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\NtpSyncModule.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\ReliableChannel.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\SequencedChannel.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\SimpleChannel.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\Utils\FastBitConverter.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\Utils\NetDataReader.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\Utils\NetDataWriter.cs" />
+    <Compile Include="Assets\ILFramework\LiteNetLib\Utils\NetSerializer.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\BellSprites.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\CourseSupport.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\DoScreenClickEffect.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\GetXDeviceState.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\RemoteController.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\Sim3dof.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\XDeviceManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\3Dof\XDeviceSupport.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\BellAudiosClip.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\BellLoom.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\ChildILBehaviour.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\FixShader.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\HotfixPackage.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\ILBehaviour.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\LoadCourse.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\LogControl.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\LogUtil.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\RootILBehaviour.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Common\ScrollPage.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\ConstDefine\AppConst.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\ExtraBinding\CoroutineAdapter.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\ExtraBinding\ExtraRegister.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Core\Base.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Core\Controller.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Core\Manager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Core\Message.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Core\View.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Interfaces\ICommand.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Interfaces\IController.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Interfaces\IManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Interfaces\IMessage.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Framework\Interfaces\IView.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\ConvertManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\Drager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\Drawable.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\DrawableGun.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\Droper.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\GunFollow.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\ImgInc.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\LuaBehaviour.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\LuaManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\ModelClick.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\Object3DAction.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\ObjectClickEffect.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\ToggleImageButton.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\UGUIPointer.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\UIClickEffect.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\LuaUtil\Util.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\HotfixManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\Interface\ITimerBehaviour.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\LogicManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\NetworkManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\ObjectPoolManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\PanelManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\PowerpointManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\ResourceManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\SoundManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\SpineManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\ThreadManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Manager\TimerManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Network\ByteBuffer.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Network\Converter.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Network\Protocal.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Network\SocketClient.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\ObjectPool\GameObjectPool.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\ObjectPool\ObjectPool.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\ObjectPool\TestObjectClass.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\StateMachine\ClassCopyManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\StateMachine\Example\Run.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\StateMachine\MesManager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\StateMachine\TaskEventArgs.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\StateMachine\TaskQueue.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Utility\ILDrager.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Utility\ILDroper.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Utility\ILObject3DAction.cs" />
+    <Compile Include="Assets\ILFramework\Scripts\Utility\Util.cs" />
+    <Compile Include="Assets\LuaFramework\Scripts\Bell\BellAudioClips.cs" />
+    <Compile Include="Assets\Source\Generate\DelegateFactory.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_DOTweenWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_EaseWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_LoopTypeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_PathModeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_PathTypeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_RotateModeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_SequenceWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_TweenerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DG_Tweening_TweenWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DrawableGunWrap.cs" />
+    <Compile Include="Assets\Source\Generate\DrawableWrap.cs" />
+    <Compile Include="Assets\Source\Generate\GetXDeviceStateWrap.cs" />
+    <Compile Include="Assets\Source\Generate\GunFollowWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_BaseWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_LogicManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_Manager_ILFramework_LogicManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_Manager_ILFramework_ResourceManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_Manager_ILFramework_SoundManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_Manager_ILFramework_SpineManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_Manager_ILFramework_XDeviceManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_Manager_LuaManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_ResourceManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_SoundManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_SpineManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ILFramework_XDeviceManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaBinder.cs" />
+    <Compile Include="Assets\Source\Generate\LuaFramework_DragerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaFramework_DroperWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaFramework_LuaBehaviourWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaFramework_ModelClickWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaFramework_UtilWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaInterface_DebuggerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaInterface_InjectTypeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaInterface_LuaInjectionStationWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaManagerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\LuaProfilerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\Object3DActionWrap.cs" />
+    <Compile Include="Assets\Source\Generate\ObjectClickEffectWrap.cs" />
+    <Compile Include="Assets\Source\Generate\RightUICtrlWrap.cs" />
+    <Compile Include="Assets\Source\Generate\System_Collections_ArrayListWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UGUIPointerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UIClickEffectWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AnimationBlendModeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AnimationClipWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AnimationStateWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AnimationWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AnimatorWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ApplicationWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AssetBundleWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AsyncOperationWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AudioBehaviourWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AudioClipWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_AudioSourceWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_BehaviourWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_BlendWeightsWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_BoxCollider2DWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_BoxColliderWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_CameraClearFlagsWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_CameraWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_CanvasWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_CapsuleColliderWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_CharacterControllerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_Collider2DWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ColliderWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ComponentWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_DebugWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_EventSystems_UIBehaviourWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_GameObjectWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_InputWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_KeyCodeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_LightTypeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_LightWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_LineRendererWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_MaterialWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_MeshColliderWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_MeshRendererWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_MonoBehaviourWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ParticleSystemWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_PhysicsWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_PlayModeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_QualitySettingsWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_QueueModeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RectOffsetWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RectTransformWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RectWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RendererWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RenderSettingsWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RenderTextureWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ResourcesWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_Rigidbody2DWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_RigidbodyWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ScreenWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_ShaderWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_SkinnedMeshRendererWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_SleepTimeoutWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_SpaceWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_SphereColliderWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_SpriteWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_Texture2DWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_TextureWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_TimeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_TrackedReferenceWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_TransformWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_GraphicWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_GridLayoutGroupWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_ImageWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_InputFieldWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_LayoutGroupWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_MaskableGraphicWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_RawImageWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_SelectableWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_TextWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_UI_ToggleWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_Video_VideoPlayerWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_WrapModeWrap.cs" />
+    <Compile Include="Assets\Source\Generate\UnityEngine_WWWWrap.cs" />
+    <Compile Include="Assets\Source\Generate\Vectrosity_VectorLineWrap.cs" />
+    <Compile Include="Assets\Source\Generate\Vectrosity_VectorObject2DWrap.cs" />
+    <Compile Include="Assets\Source\LuaConst.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Animation.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\AnimationState.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\AnimationStateData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Atlas.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\AtlasAttachmentLoader.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\Attachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\AttachmentLoader.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\AttachmentType.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\BoundingBoxAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\ClippingAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\MeshAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\PathAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\PointAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\RegionAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Attachments\VertexAttachment.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\BlendMode.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Bone.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\BoneData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Event.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\EventData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\ExposedList.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\IConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\IkConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\IkConstraintData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\IUpdatable.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Json.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\MathUtils.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\PathConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\PathConstraintData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Skeleton.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\SkeletonBinary.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\SkeletonBounds.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\SkeletonClipping.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\SkeletonData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\SkeletonJson.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Skin.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Slot.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\SlotData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\TransformConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\TransformConstraintData.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-csharp\src\Triangulator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Asset Types\AnimationReferenceAsset.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Asset Types\AtlasAsset.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Components\BoneFollower.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Components\PointFollower.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Components\SkeletonAnimation.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Components\SkeletonAnimator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Components\SkeletonRenderer.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\ISkeletonAnimation.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\SpineMesh.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\ArraysMeshGenerator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\ArraysSimpleMeshGenerator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\ArraysSubmeshedMeshGenerator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\ArraysSubmeshSetMeshGenerator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\DoubleBufferedMesh.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\ISimpleMeshGenerator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Mesh Generation\Unused\ISubmeshedMeshGenerator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonGraphic\BoneFollowerGraphic.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\SkeletonExtensions.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+    <Compile Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\SpineAttributes.cs" />
+    <Compile Include="Assets\Thirds\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\Bean\RequestMsgPackage.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\Bean\StringMsgData.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\Bean\WsRequest.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\Bean\WsRespone.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\BlueDevices\DevicesUtil.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\Communicate.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\Constants.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\MD5Helper.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\MessageCenter.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\MessageCenterImpl.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\MsgCallback.cs" />
+    <Compile Include="Assets\Thirds\UnityWebsocket\Scripts\WebSocketClient.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\DemoScenes\01 - Device Test\ControllerInputGUI.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\DemoScenes\01 - Device Test\FPSCounter.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\DemoScenes\01 - Device Test\TrackerInputTest.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\DemoScenes\01 - Device Test\UIVector3Field.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\DemoScenes\02 - Pick Cubes\CubeGridCreator.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\DemoScenes\02 - Pick Cubes\SimplePicker.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\Common\Utils\Log.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\Common\Utils\PlayerPrefsEx.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\Common\Utils\ReflectUtil.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\Common\Utils\SimplePropertyDrawer.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\Common\Utils\UKeyValuePair.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\HandModel.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\HandModelInput.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\TrackedControllerInput.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\TrackerInput.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\XHawkInput.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\XHawkInput_InsideOut.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\XHawkInput_OutsideIn.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\Internal\VRContext.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\Internal\VRDevice.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\UI\UIFade.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\UI\VRInputModule.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\UI\VRRaycaster.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\ControllerInput.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\ControllerInputManager.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\InputManager.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\ControllerVisual.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\DeviceStatus.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\HapticsLibrary.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\PlayAreaHelper.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\PlayAreaRenderer.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\TrackedEventListener.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\TrackedHead.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\TrackedObject.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\Utils\UpdatePoses.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\XDeviceConstants.cs" />
+    <Compile Include="Assets\Thirds\Ximmerse SDK\Scripts\XDevice SDK\XDevicePlugin.cs" />
+    <Compile Include="Assets\ToLua\BaseType\LuaInterface_EventObjectWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\LuaInterface_LuaConstructorWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\LuaInterface_LuaFieldWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\LuaInterface_LuaMethodWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\LuaInterface_LuaOutWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\LuaInterface_LuaPropertyWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_ArrayWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_Generic_Dictionary_KeyCollectionWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_Generic_Dictionary_ValueCollectionWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_Generic_DictionaryWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_Generic_KeyValuePairWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_Generic_ListWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_IEnumeratorWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_Collections_ObjectModel_ReadOnlyCollectionWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_DelegateWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_EnumWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_NullObjectWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_ObjectWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_StringWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\System_TypeWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\UnityEngine_CoroutineWrap.cs" />
+    <Compile Include="Assets\ToLua\BaseType\UnityEngine_ObjectWrap.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaAttributes.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaBaseRef.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaBeatEvent.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaDLL.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaEvent.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaException.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaFileUtils.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaFunction.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaMatchType.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaMethodCache.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaMisc.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaStackOp.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaState.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaStatePtr.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaStatic.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaTable.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaThread.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaUnityLibs.cs" />
+    <Compile Include="Assets\ToLua\Core\LuaValueType.cs" />
+    <Compile Include="Assets\ToLua\Core\ObjectPool.cs" />
+    <Compile Include="Assets\ToLua\Core\ObjectTranslator.cs" />
+    <Compile Include="Assets\ToLua\Core\ToLua.cs" />
+    <Compile Include="Assets\ToLua\Core\TypeChecker.cs" />
+    <Compile Include="Assets\ToLua\Core\TypeTraits.cs" />
+    <Compile Include="Assets\ToLua\Injection\LuaInjectionStation.cs" />
+    <Compile Include="Assets\ToLua\Misc\LuaClient.cs" />
+    <Compile Include="Assets\ToLua\Misc\LuaCoroutine.cs" />
+    <Compile Include="Assets\ToLua\Misc\LuaLooper.cs" />
+    <Compile Include="Assets\ToLua\Misc\LuaProfiler.cs" />
+    <Compile Include="Assets\ToLua\Misc\LuaResLoader.cs" />
+    <Compile Include="Assets\ToLua\Reflection\LuaConstructor.cs" />
+    <Compile Include="Assets\ToLua\Reflection\LuaField.cs" />
+    <Compile Include="Assets\ToLua\Reflection\LuaMethod.cs" />
+    <Compile Include="Assets\ToLua\Reflection\LuaProperty.cs" />
+    <Compile Include="Assets\ToLua\Reflection\LuaReflection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\5.25\fanshu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\5.27crab\fanshu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\book\fanshu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\crab\pangxie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\crab2\ggx\ggx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\crab2\jjx\jjx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\crab2\ylx\ylx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\crab2\yzx\yzx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\fanshu\fanshu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\fbook\fanshu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\newxie\ggx\ggx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\newxie\ylx\ylx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\newxie\yzx\yzx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\pangxie\pangxie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\replaceSpine\book1\fanshu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\replaceSpine\ggx\ggx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\replaceSpine\ylx\ylx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course100\Part1\Spines\replaceSpine\yzx\yzx.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\annie\10anniu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\fankapian\10_fankapian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\game\10_fankapian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\game2\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\jiqi\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\juzi\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\jz\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\newPlank\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\plank\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\qgj\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course101\Part1\Spines\qiegeji\10qiemutou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course102\Part1\Spines\Game1-1\12youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course102\Part1\Spines\Game2-1\12youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course103\Part1\Spines\Game1\14youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course103\Part1\Spines\newAmy\amy.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course104\Part1\Spines\Game1-1\13youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course104\Part1\Spines\Game2-1\13youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0715\15youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0715\15yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0715\MAX.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0717\15youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0717\15yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0717\MAXyuhangyuan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0725\15youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0729\15youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0730\15youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0730\15youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0802\15yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0808\15youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\0808\15yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\game1\15youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course105\Part1\Spines\game2\15yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\444\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5-23\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.24.1\game1\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.24.1\game2\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.24\game1\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.24\game2\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.25\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.25gai\game1\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.25gai\game2\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.28\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\5.29th\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\game1\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\game2\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\newgame\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\newqingt\1\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\newqingt\2\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\newqingt\3\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\qingting\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\qtth\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\temp\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\th\game1\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\th\game2\16youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\tttt\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\xin\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course106\Part1\Spines\yyy\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\5.24\game1\17youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\5.24\game2\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\5.24\ui1\17youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\5.25\game1\17youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\5.25\game2\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\game1\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\game2\16youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\newwoniu\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\th\game1\17youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\th\game2\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\tihuan\ui1\17youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\tihuan\ui2\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course107\Part1\Spines\woniu\17youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\5.25gai\qiu\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\5.25gai\yingyin\18YOUXI1yinying.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\5.25gai\youxi2\18youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\feitinggai\18youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\game1\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\game2\18youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\jiangluosha\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\newgame2\18youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\newui\18youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\qiqiubell\reqiqiuBell.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\qiu\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\qq\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\qqqqq\reqiqiuBell.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\reqiqiu\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\rqq\qiu\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\rqq\yinyin\18YOUXI1yinying.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\ui1\18YOUXI1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\ui2\18youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course108\Part1\Spines\yinyin\1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\5.24\2\19yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\5.24\5\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\5.24\6\19youxi6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\5.25gai\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\5.27gai\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\5.28\19yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\fangzi\19yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\feeder\19youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\game2\19yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\game3\19youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\game5\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\game6\19youxi6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\huan\ui3\19youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\huan\ui5\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\huan\ui6\19youxi6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\panda\19_xiongmao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\th\game3\19youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\th\game5\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\th\game6\19youxi6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\th1\19youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\th2\19youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\tihuan\ditu1\19youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\tihuan\fangzi\19yoxui2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\tihuan\jiantou\19jiantou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\tihuan\shijieditu\19youxi6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course109\Part1\Spines\tihuan\zhongguoditu\19youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\1\eyu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\2\eyu2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\3\eyu3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\4\eyu4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\5\eyu5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\6\eyu6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\qingwa\qingwa.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\ui\UI.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\5-13gai\xiyi\xiyi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\bg\cj.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\cayman1\eyu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\cayman2\eyu2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\cayman3\eyu3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\cayman4\eyu4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\cayman5\eyu5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\cayman6\eyu6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\frog\qingwa.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\lizard\xiyi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newbg\1\cj-1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newbg\2\cj-2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newbg\3\cj-3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newbg\4\cj-4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newbg\5\cj-5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\1\eyu1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\2\eyu2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\3\eyu3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\4\eyu4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\5\eyu5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\6\eyu6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\qingwa\qingwa.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course110\Part1\Spines\newspine\xiyi\xiyi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\10star\10.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\11star\11.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\12star\12.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\13star\13.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\14star\14.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\2star\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\6star\6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\7star\7.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\ant\mayi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\chong\yachong.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\fanshu\P-fanshu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\newSpine\0522\book\P-fanshu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\newSpine\book\P-fanshu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\newSpine\book0516\P-fanshu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\newSpine\book0516\shu(2)\P-fanshu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\newSpine\mayi\mayi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\newSpine\piaochong\pc.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course111\Part1\Spines\pc\pc.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\newSpine\0524\cj3\cj3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\newSpine\0524\cj4\cj4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\newSpine\hudie\hudie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\newSpine\hudie2\hudie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\newSpine\hudie3\hudie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc1\hudie\hudie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\cj1\cj1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\cj2\cj2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\cj3\cj3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\cj4\cj4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\hudie\ce\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\hudie\zheng\hudie.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course112\Part1\Spines\sc2\xian\xian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\0725\21youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\0731\amy.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\0808\21youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\715\21youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\717\021youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\717\21youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\game1\21youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course113\Part1\Spines\game2\021youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course114\Part1\Spines\Game1Spine\022youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course114\Part1\Spines\Game2Spine\22youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course114\Part1\Spines\game2\22youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course115\Part1\Spines\game1\020youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course115\Part1\Spines\game2\020youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\0725\23youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\0730\23youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\0806\23youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\game1\0715\23youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\game1\0715\23youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\game1\23youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course116\Part1\Spines\game2\23youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course117\Part1\Spines\1\28youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course117\Part1\Spines\2\28youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course117\Part1\Spines\3\28youxi3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course117\Part1\Spines\4\28youxi4.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course117\Part1\Spines\5\28youxi5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course117\Part1\Spines\6\28youxi6.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course118\Part1\Spines\game1\27youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course118\Part1\Spines\game2\27youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course119\Part1\Spines\game1-1\27youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course119\Part1\Spines\game1\27youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course119\Part1\Spines\game2-1\029youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course119\Part1\Spines\game2\029youxi2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course120\Part1\Spines\35youxi1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course120\Part1\Spines\shou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course121\Part1\Spines\xuanfengtuoluo.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course150\Part1\Spines\MAX.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course150\Part1\Spines\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course150\Part1\Spines\lundunqiao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course150\Part1\Spines\youxi0.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course151\Part1\Spines\spines1\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course151\Part1\Spines\spines2\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course152\Part1\Spines\spine1\shougeji.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course152\Part1\Spines\spine2\chayangji.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course152\Part1\Spines\spine3\chucao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course152\Part1\Spines\spine4\gengdi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course152\Part1\Spines\spine5\wrj.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course153\Part1\Spines\game1\game.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course153\Part1\Spines\game2\shanshen.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course154\Part1\Spines\Spine1\fengshan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course154\Part1\Spines\Spine2\fengshanjiegou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course155\Part1\Spines\New Folder\xingzuo.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course155\Part1\Spines\game1\wangyuanjing1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course155\Part1\Spines\game2-1\xingzuo.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course155\Part1\Spines\game2\xingzuo.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course156\Part1\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course156\Part1\Spines\game2\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course156\Part1\Spines\game3\3dog.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course156\Part1\Spines\game4\muyangquan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course157\Part1\Spines\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course158\Part1\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course158\Part1\Spines\game2\fanshu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course159\Part1\Spines\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course160\Part1\Spines\game1\tianping.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course160\Part1\Spines\newgame2\game21.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course160\Part1\Spines\newgame2\game22.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course161\Part1\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course161\Part1\Spines\game2\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course162\Part1\Spines\game1\geimamadeliwu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course162\Part1\Spines\game2\yizi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course163\Part1\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course163\Part1\Spines\game2\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course164\Part1\Spines\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course165\Part1\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course165\Part1\Spines\game2\game2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course166\Part1\Spines\game1\fs.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course166\Part1\Spines\game2\shengjiang.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course166\Part1\Spines\game3\shengjiangmax.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course2\Part1\Spines\fireman\firemen.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course2\Part1\Spines\lastwater\water.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course2\Part1\Spines\newfire\water.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course2\Part1\Spines\newwater\water.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course2\Part1\Spines\water\water.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course2\Part1\Spines\xiaofangzhan\xiaofangz.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\1\1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\2\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\3\3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\chenggongshibai\chenggongshibai.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\shitou\shitou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\shitou2\shitou2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\toushiche\toushiche.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\yaran\shitou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\yaran\yeren.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\youxi2a\youxi2a.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part1\Spines\youxi2b\youxi2b.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part2\Spines\toushiche\toushiche.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part2\Spines\youxi2a\youxi2a.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part2\Spines\youxi2b\youxi2b.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part3\Spines\bell\BELL.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part3\Spines\toushiche\toushiche.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course209\Part4\Spines\toushiche.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course212\Part1\Spines\1\1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course212\Part1\Spines\1_new\1.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course212\Part1\Spines\2\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course212\Part2\Spines\2\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course212\Part2\Spines\2_new\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course212\Part2\Spines\banmiaozhou\banmiaozhou.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course215\Part1\Spines\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\6.17chuan\chuan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\boat\chuan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\daoju\chuan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\ditu\chuan\dt-chuan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\ditu\didian\tubiao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\ditu\zuobiao\zuobiao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\dt-chuan\dt-chuan.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\head\zuobiao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course86\Part1\Spines\photo\zhaopian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course96\Part1\Spines\game\huojian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\Course96\Part1\Spines\max\MAX-yhy.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseAbstractPaintingPart1\Spines\catSpine\animate.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseAbstractPaintingPart1\Spines\ddSpine\dingding37.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseButterflyPart1\Spines\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseGlassPart1\Spines\boardSpine\boli.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseGlassPart1\Spines\finishSpine\congratulation.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseGlassPart1\Spines\glassSpine\boli.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseGlassPart1\Spines\ttSpine\tiantian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseHieroglyphsPart1\Spines\animation.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\boby\body.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\boy3\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\house1\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\house2\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\boy\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\boy2\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\boy3\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\btn\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\house\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\house1\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\mountain\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\sun\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\tree1\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\light\tree2\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseKingdomPart1\Spines\mountain\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\bgSpine\houjing.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\bgSpine\qianjing.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\catSpine\mao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\catSpine\mao2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\catSpine\shui.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\fishSpine\yu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\fishSpine\yu2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\fishSpine\yu3.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\overSpine\chenggong.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\overSpine\kaishi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Spines\overSpine\shibai.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotCat\Textures\Font\cd3.fnt" />
+    <None Include="Assets\HotFixPackage\CourseMabotWater\Spines\bellsp\Bell.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotWater\Spines\flower\2.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseMabotWater\Spines\watertool\shuihu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseOwlPart1\Spines\animation.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\ddSpine\dingding37.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\popSpine\pop.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\portrait1Spine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\portrait2Spine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\portrait3Spine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\portrait4Spine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\portrait5Spine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CoursePortraitPart1\Spines\ttSpine\tiantian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart1\Spines\btnSpine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart1\Spines\lampSpine\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart1\Spines\lightSpine\L1\qietu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart1\Spines\lightSpine\L2\qietu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart1\Spines\lightSpine\L3\qietu.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart1\Spines\ttSpine\tiantian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\CourseShadowPart2\Spines\ttSpine\tiantian.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart1\Spines\A12\A12.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart1\Spines\A2zhezhao\A2zhezhao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart1\Spines\A34\A34.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart1\Spines\A5\A5.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart2\Spines\B.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart3\Spines\C.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart4\Spines\background\qingwabeijing.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart4\Spines\background\qingwaheye.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart4\Spines\froge\qingwa.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart4\Spines\froge\qingwashuzi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart4\Spines\result\D.atlas.txt" />
+    <None Include="Assets\HotFixPackage\FrogePart4\Spines\result\kaishi.atlas.txt" />
+    <None Include="Assets\HotFixPackage\TestA\Spines\dad\bb.atlas.txt" />
+    <None Include="Assets\HotFixPackage\TestA\Spines\effect\taxiao.atlas.txt" />
+    <None Include="Assets\HotFixPackage\TestA\Spines\max\xnzjzm32.atlas.txt" />
+    <None Include="Assets\HotFixPackage\TestA\Spines\mom\mm.atlas.txt" />
+    <None Include="Assets\HotFixPackage\TestA\Spines\newmax\xnzjzm.atlas.txt" />
+    <None Include="Assets\HotFixPackage\TestA\Spines\ui\UI32.atlas.txt" />
+    <None Include="Assets\HotFixPackage\text\Spines\house\skeleton.atlas.txt" />
+    <None Include="Assets\HotFixPackage\text\Spines\skeleton.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\amy-six-noshadow\amy.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\amy-six\amy.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\amy-space suit\amy.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\amy\amy.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\amy_coverall\amy32.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\amy_uniform\amyUniform.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\bell\bell.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\bell_Growup\Bell.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\bell_grow\Bell.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\btn\ANNIU.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\dingding\dingding37.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\max-uniform\xnzjzm.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\max\xnzjzm.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\max_five\MAX.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\max_sweet\MAX.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\new-amy-six\amy.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\newAmy-six\amy.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\tiantian\tiantian.atlas.txt" />
+    <None Include="Assets\ILFramework\CommonRes\Spine\voiceBtn\2.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course155\Spines\New Folder\xingzuo.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course155\Spines\game1\wangyuanjing1.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course155\Spines\game2-1\xingzuo.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course155\Spines\game2\xingzuo.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course159\Spines\game2.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course167\Spines\spine1\tanke.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course167\Spines\spine2\tankeyouxi.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course168\Spines\book\fanshu.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course168\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course169\Spines\game\game.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course169\Spines\max\huangdiMAX.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course170\Spines\game1\game1.atlas.txt" />
+    <None Include="Assets\LuaFramework\CourseAsset\Course170\Spines\game2\game2.atlas.txt" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Ghost\Shaders\Spine-Special-Skeleton-Ghost.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Spine-Skeleton-Fill.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Spine-Skeleton-Tint.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderMaths.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\ShaderShared.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteLighting.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpritePixelLighting.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteShadows.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteSpecular.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteUnlit.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CGIncludes\SpriteVertexLighting.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CameraDepthNormalsTexture.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CameraDepthTexture.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\CameraNormalsTexture.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\ShaderShared.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteLighting.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritePixelLighting.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteShadows.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteUnlit.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpriteVertexLighting.cginc" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritesPixelLit.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Sprite\SpritesVertexLit.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Fill.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Tint.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic-TintBlack.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.txt" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Multiply.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Modules\SlotBlendModes\Spine-Skeleton-PMA-Screen.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Shaders\Spine-Skeleton-TintBlack.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Shaders\Spine-Skeleton.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Shaders\Spine-SkeletonLit.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Shaders\Utility\Hidden-Spine-Bones.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\Shaders\Utility\HiddenPass.shader" />
+    <None Include="Assets\Spine\Spine\spine-unity\Assets\spine-unity\version.txt" />
+    <None Include="Assets\Thirds\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Thirds\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\Thirds\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\Thirds\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\Thirds\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Thirds\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Thirds\Demigiant\DOTweenPro\DOTweenPro.XML" />
+    <None Include="Assets\Thirds\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
+    <None Include="Assets\Thirds\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\Thirds\Demigiant\DemiLib\Core\DemiLib.xml" />
+    <None Include="Assets\Thirds\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+    <None Include="Assets\Thirds\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\Thirds\Ximmerse SDK\Scripts\VRKit\InputTracking\ReadMe.txt" />
+    <None Include="Assets\ToLua\Injection\InjectionBlackList.txt" />
+    <None Include="Assets\ToLua\Injection\InjectionBridgeEditorInfo.xml" />
+    <None Include="Assets\ToLua\Injection\LuaInjectionSkipPaths.txt" />
+    <None Include="Assets\ToLua\readme.txt" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageAddFromUrlField.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageDetails.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageGroup.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageItem.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageList.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageManagerWindow.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageSearchToolbar.uxml" />
+    <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\PackageStatusBar.uxml" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_Properties.cginc" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_SDF Internal SSD.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

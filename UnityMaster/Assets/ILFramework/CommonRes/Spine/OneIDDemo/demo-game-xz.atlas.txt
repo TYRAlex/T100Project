@@ -1,0 +1,160 @@
+
+demo-game-xz.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Aa10
+  rotate: false
+  xy: 2, 588
+  size: 558, 127
+  orig: 558, 127
+  offset: 0, 0
+  index: -1
+Aa19
+  rotate: false
+  xy: 2, 1281
+  size: 876, 765
+  orig: 876, 765
+  offset: 0, 0
+  index: -1
+Aa20
+  rotate: false
+  xy: 1229, 1526
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+Aa21
+  rotate: true
+  xy: 1989, 2018
+  size: 28, 57
+  orig: 28, 57
+  offset: 0, 0
+  index: -1
+Aa22
+  rotate: false
+  xy: 1324, 1765
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+Aa23
+  rotate: true
+  xy: 880, 1326
+  size: 28, 187
+  orig: 28, 187
+  offset: 0, 0
+  index: -1
+Bb10
+  rotate: false
+  xy: 562, 610
+  size: 285, 105
+  orig: 285, 105
+  offset: 0, 0
+  index: -1
+Bb11
+  rotate: false
+  xy: 2, 717
+  size: 873, 562
+  orig: 873, 562
+  offset: 0, 0
+  index: -1
+Bb5
+  rotate: true
+  xy: 197, 163
+  size: 285, 105
+  orig: 285, 105
+  offset: 0, 0
+  index: -1
+Bb6
+  rotate: false
+  xy: 1702, 1941
+  size: 285, 105
+  orig: 285, 105
+  offset: 0, 0
+  index: -1
+Bb7
+  rotate: false
+  xy: 197, 119
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+Bb8
+  rotate: false
+  xy: 304, 419
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+Bb9
+  rotate: false
+  xy: 1702, 1886
+  size: 52, 53
+  orig: 52, 53
+  offset: 0, 0
+  index: -1
+Bbx1
+  rotate: false
+  xy: 1324, 1869
+  size: 376, 177
+  orig: 376, 177
+  offset: 0, 0
+  index: -1
+Bbx2
+  rotate: false
+  xy: 880, 1356
+  size: 347, 231
+  orig: 347, 231
+  offset: 0, 0
+  index: -1
+Bbx3
+  rotate: false
+  xy: 2, 450
+  size: 365, 136
+  orig: 365, 136
+  offset: 0, 0
+  index: -1
+Bbx4
+  rotate: false
+  xy: 1324, 1828
+  size: 362, 39
+  orig: 362, 39
+  offset: 0, 0
+  index: -1
+Bbx5
+  rotate: true
+  xy: 79, 34
+  size: 414, 57
+  orig: 414, 57
+  offset: 0, 0
+  index: -1
+Bbx6
+  rotate: true
+  xy: 138, 34
+  size: 414, 57
+  orig: 414, 57
+  offset: 0, 0
+  index: -1
+Bbx7
+  rotate: true
+  xy: 2, 22
+  size: 426, 75
+  orig: 426, 75
+  offset: 0, 0
+  index: -1
+Bbx8
+  rotate: false
+  xy: 880, 1589
+  size: 442, 457
+  orig: 442, 457
+  offset: 0, 0
+  index: -1
+xxxx
+  rotate: false
+  xy: 369, 463
+  size: 128, 123
+  orig: 128, 123
+  offset: 0, 0
+  index: -1

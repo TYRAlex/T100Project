@@ -1,0 +1,230 @@
+
+延续环节.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 1926, 1072
+  size: 145, 394
+  orig: 145, 394
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 3281, 1593
+  size: 328, 453
+  orig: 328, 453
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 2, 206
+  size: 1154, 136
+  orig: 1154, 136
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 2, 344
+  size: 1168, 213
+  orig: 1168, 213
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 2, 559
+  size: 1563, 403
+  orig: 1563, 403
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 2, 100
+  size: 933, 104
+  orig: 933, 104
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 2, 964
+  size: 1922, 1082
+  orig: 1922, 1082
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 3281, 1515
+  size: 52, 76
+  orig: 52, 76
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 2593, 1291
+  size: 67, 154
+  orig: 67, 154
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 1172, 501
+  size: 56, 274
+  orig: 56, 274
+  offset: 0, 0
+  index: -1
+5
+  rotate: true
+  xy: 2, 2
+  size: 96, 166
+  orig: 96, 166
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 937, 117
+  size: 87, 87
+  orig: 87, 87
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 1926, 1219
+  size: 665, 827
+  orig: 665, 827
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 2593, 1360
+  size: 686, 686
+  orig: 686, 686
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 1567, 580
+  size: 211, 382
+  orig: 211, 382
+  offset: 0, 0
+  index: -1
+dd1
+  rotate: false
+  xy: 1780, 926
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+dd3
+  rotate: false
+  xy: 1780, 926
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+dd8
+  rotate: false
+  xy: 1780, 926
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+dd2
+  rotate: false
+  xy: 3611, 1995
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+dd6
+  rotate: false
+  xy: 3611, 1995
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+dd4
+  rotate: false
+  xy: 2322, 1187
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+dd5
+  rotate: false
+  xy: 2322, 1187
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+dd7
+  rotate: false
+  xy: 2322, 1187
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+x1
+  rotate: false
+  xy: 170, 69
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 170, 69
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+x3
+  rotate: false
+  xy: 170, 69
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 170, 69
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+x5
+  rotate: false
+  xy: 170, 69
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+x6
+  rotate: false
+  xy: 170, 69
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+xx1
+  rotate: false
+  xy: 1926, 1034
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+xx2
+  rotate: false
+  xy: 1926, 1034
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+xx3
+  rotate: false
+  xy: 1926, 1034
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

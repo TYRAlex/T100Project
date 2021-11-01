@@ -1,0 +1,12 @@
+.vs/
+/Library
+/Logs
+obj/
+/Temp
+/Assembly-CSharp.csproj
+/ILFramework.sln
+/Assembly-CSharp-Editor.csproj
+/B2Test
+/OutHotfixAssetZip
+/UpdateZips
+/Assets/StreamingAssets

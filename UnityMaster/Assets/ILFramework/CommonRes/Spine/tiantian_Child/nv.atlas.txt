@@ -1,0 +1,139 @@
+
+nv.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/tt0001
+  rotate: false
+  xy: 466, 3257
+  size: 224, 223
+  orig: 224, 223
+  offset: 0, 0
+  index: -1
+images/tt0002
+  rotate: false
+  xy: 692, 3239
+  size: 242, 241
+  orig: 242, 241
+  offset: 0, 0
+  index: -1
+images/tt0003
+  rotate: true
+  xy: 936, 2612
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0004
+  rotate: true
+  xy: 2038, 2612
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0005
+  rotate: false
+  xy: 3140, 2380
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0006
+  rotate: false
+  xy: 2, 2137
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0007
+  rotate: true
+  xy: 872, 1742
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0008
+  rotate: true
+  xy: 1974, 1742
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0009
+  rotate: false
+  xy: 3076, 1278
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0010
+  rotate: false
+  xy: 2, 1035
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0011
+  rotate: true
+  xy: 872, 872
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0012
+  rotate: true
+  xy: 1974, 872
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0013
+  rotate: false
+  xy: 3076, 176
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0014
+  rotate: true
+  xy: 2, 2
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/tt0015
+  rotate: true
+  xy: 1104, 2
+  size: 868, 1100
+  orig: 868, 1100
+  offset: 0, 0
+  index: -1
+images/ttz0001
+  rotate: false
+  xy: 2, 3418
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1
+images/ttz0002
+  rotate: false
+  xy: 118, 3418
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1
+images/ttz0003
+  rotate: false
+  xy: 234, 3418
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1
+images/ttz0004
+  rotate: false
+  xy: 350, 3418
+  size: 114, 62
+  orig: 114, 62
+  offset: 0, 0
+  index: -1

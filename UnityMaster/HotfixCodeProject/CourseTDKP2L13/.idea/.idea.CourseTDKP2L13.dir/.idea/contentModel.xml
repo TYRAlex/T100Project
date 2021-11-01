@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="D:\Project\beob_windows\bob2.0\HotfixCodeProject\CourseTDKP2L13" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Part1" t="IncludeRecursive">
+        <e p="CourseTDKP2L13Part1.cs" t="Include" />
+        <e p="CourseTDKP2L13Part1.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Part2" t="IncludeRecursive">
+        <e p="CourseTDKP2L13Part2.cs" t="Include" />
+        <e p="CourseTDKP2L13Part2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Part3" t="IncludeRecursive">
+        <e p="CourseTDKP2L13Part3.cs" t="Include" />
+        <e p="CourseTDKP2L13Part3.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Part4" t="IncludeRecursive">
+        <e p="CourseTDKP2L13Part4.cs" t="Include" />
+        <e p="CourseTDKP2L13Part4.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Part5" t="IncludeRecursive">
+        <e p="CourseTDKP2L13Part5.cs" t="Include" />
+        <e p="CourseTDKP2L13Part5.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Part6" t="IncludeRecursive">
+        <e p="CourseTDKP2L13Part6.cs" t="Include" />
+        <e p="CourseTDKP2L13Part6.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="D:\Project\beob_windows\bob2.0\OutHotfixAssetPackage\CourseTDKP2L13\Part1" t="ExcludeRecursive" />
+    <e p="D:\Project\beob_windows\bob2.0\OutHotfixAssetPackage\CourseTDKP2L13\Part2" t="ExcludeRecursive" />
+    <e p="D:\Project\beob_windows\bob2.0\OutHotfixAssetPackage\CourseTDKP2L13\Part3" t="ExcludeRecursive" />
+    <e p="D:\Project\beob_windows\bob2.0\OutHotfixAssetPackage\CourseTDKP2L13\Part4" t="ExcludeRecursive" />
+    <e p="D:\Project\beob_windows\bob2.0\OutHotfixAssetPackage\CourseTDKP2L13\Part5" t="ExcludeRecursive" />
+    <e p="D:\Project\beob_windows\bob2.0\OutHotfixAssetPackage\CourseTDKP2L13\Part6" t="ExcludeRecursive" />
+  </component>
+</project>
